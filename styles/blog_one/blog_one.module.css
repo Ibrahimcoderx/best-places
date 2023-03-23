@@ -1,0 +1,959 @@
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Blog One Basic Common Code
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Jost&family=Playfair+Display:wght@800&family=Roboto:wght@700&display=swap');
+
+
+
+/* .BlogOne{
+    font-family: 'Jost', 'Playfair Display' !important;
+}
+
+.BlogOne p{
+    font-family: 'Jost', 'Playfair Display' !important;
+}
+.BlogOne h2{
+    font-family: 'Jost', 'Playfair Display' !important;
+    font-size: 40px;
+}
+.BlogOne h3{
+    font-family: 'Jost', 'Playfair Display' !important;
+}
+.BlogOne h4{
+    font-family: 'Jost', 'Playfair Display' !important;
+} */
+
+.LandingFive h2{
+    font-size: 40px;
+    line-height: 50px;
+    color: var(--header_color);
+    font-weight: 700;
+}
+
+.BlogOne h3{
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--header_color);
+    font-weight: 600;
+}
+
+
+
+.BlogOne p{
+    color: var(--text_color);
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+         
+.BlogOne a {
+    transition: 0.5s;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+ 
+
+/* .BlogOne a.bg{
+    padding: 19px 38px;
+    color: var(--white_color); 
+    background-image: linear-gradient(to right, #FF6C45 0%, #444FC5  51%, #FF6C45  100%);
+    background-size: 200% auto;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.BlogOne a svg{
+    font-size: 25px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.BlogOne a.bg:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+} */
+ 
+.BlogOne .section_gaps{
+    margin-top: 100px;
+}
+.BlogOne ul{
+    list-style: none;
+    padding: 0%;
+}
+
+
+
+
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Service PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+ 
+.MenubarDiv{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 26px;
+  align-items: center;
+}
+
+.midMenuDiv{
+  display: flex;
+  border: 2px solid #D5D5D5 ;
+  padding: 9px 0px 9px 22px;
+  border-radius: 5px;
+ /* height: 50px; */
+}
+.selectDiv{
+  border: none;
+  outline: none;
+  font-size: 13px;
+  font-weight: 700;
+  padding-left: 22px;
+}
+
+.inputBtn{
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding-left: 20px;
+  width: 380px;
+}
+
+/* bootstrap drop */
+
+
+
+.DpBtn{
+  padding: 0 !important;
+  background-color: #ffffff !important ;
+  color:#1F1E23 !important;
+  border: none;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.DpBtnArr{
+  color:#1F1E23;
+  font-size: 15px;
+  margin-left: 24px;
+}
+
+.DpBtn::after{
+  display: none;
+}
+
+.searchBox{
+  padding: 9px 10px 13px 10px;
+  background:#1F1E23;
+}
+
+.searchBtn{
+  font-size: 25px;
+  color:#ffffff ;
+  font-weight: 900;   
+}
+
+.spanDivider{
+  height: 22px;
+  border-left: 2px solid #EBEBEB;
+  margin-left: 20px;
+}
+
+.Menu1IconBox{
+  padding-top: 2px;
+}
+
+.Menu1Icon2{
+  font-size: 22px;
+  margin-left: 34px;
+}
+.Menu1Icon1{
+  font-size: 22px;
+}
+
+.Menu1Icon3{
+  font-size: 22px;
+  margin-left: 34px;
+}
+
+
+.textSpanTop{
+  padding: 2px 4px;
+  background-color: #444FC5;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 8px;
+  vertical-align: 9px;
+  margin-left:-4px;
+}
+/* ========================================================================================================================
+Menubar2
+=========================================================================================================================*/
+
+.Menubar2Flu{
+  background-color: #FF6C45;
+  margin-top: 22px;
+  padding:0 ;
+}
+
+.MenubarBar{
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.Menubar2Mid a{
+ 
+  padding-bottom: 15px;
+  background-color: #FF6C45;
+}
+
+.Menubar2{
+  display: flex;
+  justify-content:space-between;
+  padding:19.3px 0px 0px 0px ;
+  background-color: #FF6C45;
+  color: #fff;
+  text-decoration: none;
+}
+.Menubar2 a{
+  color: #070707;
+  text-decoration: none;
+ 
+}
+
+.Menubar2Row {
+  padding: 0;
+ 
+}
+
+.Menubar2Mid ul li {
+  display: inline;
+  padding-left: 34px;
+
+}
+
+.MenubarButton{
+  border: none;
+  background: none;
+  padding: 0;
+ 
+}
+.MenubarButton:hover{
+  background: none !important;
+}
+
+/* offcanvas */
+
+.OffcanvasUlDevMain{
+  background-color:  #444FC5;
+}
+
+.OffcanvasUlDev{
+  color: rgb(255, 255, 255);
+ 
+}
+.OffcanvasUlDev ul{
+  list-style: none;
+}
+.OffcanvasUlDev ul li{
+  margin-bottom: 10px;
+}
+
+.OffcanvasUlDev ul li:hover{
+  background-color: #F65D34;
+  
+}
+
+.OffcanvasUlDev a{
+  font-family: Jost;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px; 
+}
+.OffcanvasUlDev a:hover{
+  color:#f7f6f6 ;
+}
+
+.OffcanvasUlDev ul li {
+      padding: 8px 0px;
+      border-radius: 10px;
+}
+
+
+
+/* -----drop--- */
+/* .Menubar2Mid{
+
+
+} */
+
+.dropdown{
+position: relative;
+}
+
+.dropdownItems  {
+  display: none;
+  padding-left: 0px;
+  border-radius: 10px;
+  margin-left: 20px;
+  
+  
+}
+.dropdownItems:hover  {
+  padding-left: 0px;
+  margin-left: 20px;
+  border-radius: 10px;
+
+  
+}
+
+.dropdownItems a{
+  display: block;
+  padding-bottom: 0;
+  padding: 16px 0px 16px 0px;
+  color: #1F1E23;
+  font-size: 20px;
+  border-bottom: 1px solid #EEEEEE;
+  background-color: #ffffff;
+
+  
+}
+/* .dropdownItems .lastli{
+ padding-bottom: 10px;
+  
+} */
+
+
+.dropdownItems a:hover{
+ background-color: #FF6C45;
+}
+
+
+.dropdownItems ul li{
+  padding:0;
+ 
+  
+}
+.dropdownItems ul {
+  padding:0;
+  border-radius: 10px;
+  
+}
+.dropdown:hover .dropdownItems { 
+  top:39px;
+  position: absolute; 
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  display: block;
+  box-sizing: border-box;
+  width: 233px;
+  text-align: center;
+  z-index: 2;
+ 
+
+
+}
+.dropdownItems::after { 
+  position: absolute;
+  content: '';
+  top: -15px;
+  left: 10%;
+  width: 30px;
+  height: 15px;
+  border-bottom: solid 15px;
+  border-left: solid 15px transparent;
+  border-right: solid 15px transparent;
+  color: #ffffff;
+}
+
+
+.Menubar2RightIcon{
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.Menubar2Right a{
+  font-weight: bold;
+}
+
+.Menubar2Left a{
+  font-weight: bold;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+    Carosel Section
+ -------------------------------------------------------------------------------------------------------------------------------- */
+
+ .CaroselImg{
+  width: 100%;
+}
+
+.CarouselSec{
+padding: 0 ;
+position: relative;
+top: 0%;
+left:0;
+box-sizing: border-box;
+}
+.CarouselSecCon{
+  padding: 0;
+}
+
+
+.CarouselSec img{
+height: 100vh;
+}
+
+.bgptext{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 24px;
+    /* identical to box height, or 75% */
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 22px;
+}
+
+.bgh2text{
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 95px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 7px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.caroseltxtcenter{
+  position: absolute;
+  top:200px;
+  left:0;
+  vertical-align: middle;
+  /* border: 5px solid red; */
+  width: 100%;
+}
+
+.carouseltxt{
+    /* position: relative; */
+    /* top:200px;
+       left:40%; */
+    /* left: 15%; */
+    margin: 0 auto ;
+    text-align: center;
+}
+
+.carospantxt1{
+    color:#FFE62E;
+    
+}
+
+.carospantxt2{
+        color: #EF4D3C;
+        margin: 0 auto;
+}
+
+.carodiv{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* ------------------Slider-------------------------------------------------------------------------------------------------------------- */
+.BtnDev{
+  position: relative;
+}
+
+.SliderB1{
+  position: absolute;
+  top:0;
+  left:0;
+  border: none;
+  background-color:#ff0000;
+  padding: 4px 6px;
+  border-radius: 50px;
+  z-index: 18;
+  margin-left: -70px;
+  margin-top: 100px;
+  transition: .5s;
+}
+.SliderB1:hover{
+    transform: scale(1.2);
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.SliderB2{
+  position: absolute;
+  top:0;
+  right:0;
+  border: none;
+  background-color:#ff0000;
+  padding: 4px 6px;
+  border-radius: 50px;
+  z-index: 18;
+  margin-right: -70px;
+  margin-top: 100px;
+  transition: .5s;
+  
+}
+
+.SliderB2:hover{
+  transform: scale(1.2);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px , rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  
+}
+
+.icon1{
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 3px;
+}
+.icon2{
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 3px;
+}
+
+
+.slidertxt{
+  text-align: center;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 24px;
+  color: #ABABAB;
+  padding-top: 16px;
+
+}
+
+.text4{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 59px;
+    text-align: center;
+    color: #28243B;
+    padding: 50px 0 35px 0;
+}
+
+.text4R{
+    color: #FF0000;
+}
+
+
+ .imgbox img {
+  display: block;
+  width: 100%;
+  height: 228px;
+  object-fit: cover;
+}
+
+
+ .imgbox{
+  box-sizing: border-box;
+  overflow: hidden;
+}
+ .h:hover{
+    transform: scale(1.1);}
+
+ .imgborder img{
+    width: 100%;
+    transition: .5s;
+ }
+ .imgborder{
+    border: 2px solid red;
+    border-radius: 10%;
+    overflow: hidden;
+  }
+
+
+
+  
+
+
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Service PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Service PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Service PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Service PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Service PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* ------Others------ */
+
+.OffcanvasMobile{
+  display: none;
+}
+
+.midMenuDiv1{
+  display:none;
+}
+
+.MenubarButton img{
+ display: none;
+}
+
+
+.OffcanvasUlDevMain{
+        background-image: linear-gradient(to top, #b8219f, #d7047d, #e6205a, #e74437, #dc650e);
+
+      
+}
+
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Service PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 1441px) {
+
+
+}
+
+ @media (max-width: 1440px) {
+
+
+}
+
+
+@media (max-width: 1280px) {
+
+
+}
+
+@media (max-width: 991px) {
+
+.OffcanvasMobile{
+        display: block;
+    }
+
+.midMenuDiv{
+    display: none;
+}
+
+
+.midMenuDiv1{
+    display: block;
+    background-color: #ffffff;
+    display: flex;
+    margin-bottom: 16px; 
+    
+}
+
+.MenubarButton img{
+    margin-top: 10px;
+    display: block;
+}
+
+.Menubar2Left{
+    display: none;
+}
+
+.Menubar2Mid{
+    display: none;
+}
+
+.Menubar2Right{
+    display: none;
+}
+
+
+
+}
+
+
+@media (max-width: 768px) {
+
+
+    .inputBtn{
+        width: 280px;
+    }
+
+   .DpBtnArr{
+        margin-left: 5px;
+    }
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 575px) {
+
+    .inputBtn{
+        width: 160px;
+    }
+
+    .BlogOne a {
+        transition: 0.5s;
+        /* display: block; */
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+     
+    .BlogOne a.bg{
+        margin-top: 14px;
+        padding: 10px 38px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .BlogOne a svg{
+        font-size: 20px;
+        margin-top: -5px;
+        margin-right: 10px;
+    }
+
+
+    .ImgRel{
+        position: relative;
+        top:0;
+        left:0;
+    }
+    
+    .ImgAbs{
+        top:-140px;
+        left:0;
+        position: absolute;
+        z-index: -1;
+        width: 60px;
+    }
+
+    .SliderImgAbs {
+        position: absolute;
+        bottom: -25px;
+        right: 0;
+        z-index: -1;
+        width: 70px;
+    }
+
+    .SliderCon h4 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .SliderB1 {
+        padding: 2px 8px;
+        border-radius: 50px;
+        display:none;
+    }
+
+    .SliderB2 {
+        padding: 2px 8px;
+        border-radius: 50px;
+        display:none;
+    }
+
+    .icon1 {
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .icon2 {
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .slidertxtH2 {
+        margin-top: 15px;
+        font-size: 14px !important;
+        line-height: 20px;
+    }
+
+    .slidertxtH3 {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .populerBox h2 {
+        font-size: 18px;
+    }
+    .populerBox a {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 8px  14px 5px  14px !important;
+        margin-top: 0 !important;
+    }
+   
+    .populerBox svg {
+        vertical-align: -6px;
+    }
+
+    .populerBox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .CardBox h5 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .CardBox h3 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .CardBox h4 {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+    }
+
+    .CardBox span {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .AllProButt3 {
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        padding: 10px  12px 10px  12px !important;
+    }
+
+    .BlogOne a svg {
+        font-size: 16px;
+        margin-top: -5px;
+        margin-right: 5px;
+    }
+
+    .Banner2CardText h3 {
+        font-size: 21px;
+        line-height: 35px;
+    }
+
+    .BlogOne a {
+        transition: 0.5s;
+        /* display: block; */
+        font-size: 12px;
+        line-height: 17px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .BannerConPad{
+        margin-top: 60px;
+    }
+
+    .Banner2CardBox{
+        padding-bottom: 24px;
+    }
+
+    .PaddingBotm{
+        margin-bottom: 0px;
+    }
+
+    .LinkLL1{
+        display: none;
+    }
+    
+    .LinkBox a{
+        font-size: 15px;
+        line-height: 21px;
+        padding-right: 20px;
+    }
+
+    
+    }
+
+
+
+
+
+    @media (max-width: 400px) {
+        .inputBtn{
+            width: 120px;
+        }
+
+        .midMenuDiv1 {
+            display: block;
+            background-color: #ffffff;
+            display: flex;          
+            margin-bottom: 16px;
+         
+        }
+
+        .spanDivider {
+            margin-left: 2px;
+        }
+
+        .midMenuDiv {
+            padding: 9px 0px 9px 2px;
+
+        }
+       
+    
+
+    }
+
+
+
+
+
+
+
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Service PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
