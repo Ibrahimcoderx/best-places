@@ -1,0 +1,35 @@
+
+.MoreIdea{
+    padding: 10px 20px 20px 20px;
+    border:1px solid #DDDDDD;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.MoreIdea h5{
+    font-size: 22px;
+    color:#ff5002;
+}
+
+.MoreIdea img{
+    width: 100%;
+}
+
+.MoreIdea ul li  {
+  margin-top: 0px;
+}
+.MoreIdea ul li span {
+    font-size: 17px;
+    color:#ff5002;
+    padding-right: 5px;
+}
+
+.MoreIdea ul li a {
+    font-size: 17px;
+    color:#4d585c;
+    font-weight: 500;
+}
+.MoreIdea ul li a:hover {
+    font-size: 17px;
+    color:#ff5002;
+    font-weight: 500;
+}

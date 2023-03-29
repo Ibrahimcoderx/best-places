@@ -1,23 +1,21 @@
 import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap'
-import styles from '../../../styles/blog_one/blog_one.module.css'
+import styles from '../Menubar/Menubar.module.css'
 import Link from 'next/link'
-
-import { FaFacebookSquare,FaTwitterSquare,FaSearch } from "react-icons/fa";
-import next from 'next';
 import Dropdown from 'react-bootstrap/Dropdown';
 import  { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+
+
+// icon
+
 import { IoIosArrowDown } from "react-icons/io";
 import { CiSearch } from "react-icons/ci";
-import { BiUser } from "react-icons/bi";
-import { AiOutlineHeart } from "react-icons/ai";
-import { FiShoppingCart } from "react-icons/fi";
+import { FaFacebookSquare } from "react-icons/fa";;
 import { HiOutlineBars3CenterLeft} from "react-icons/hi2";
-import { AiFillStar,AiOutlineShoppingCart} from "react-icons/ai";
-import { BsTelephone } from "react-icons/bs";
-
+import { BsInstagram} from "react-icons/bs";
+import { FaTwitterSquare} from "react-icons/fa";
 
 
 
@@ -28,28 +26,29 @@ const Menubar = () => {
         const handleClose = () => setShow(false);
         const handleShow = () => setShow(true);
 
-
-
   return (
 
     <>
 
-       <section className={styles.BlogOne}>
-
-      
+       <section className={styles.Menubar}>
 
 
-           {/* ================================================================================================
+         {/* ================================================================================================
                     Menubar1
-                    ====================================================================================================*/}   
+        ====================================================================================================*/}   
+             
                 <section>
+
                     <Container>
+
                         <Row>
+
                             <Col sm={12}>
+
                                 <div className={styles.MenubarDiv}>
 
                                     <div>
-                                        <img src="img/logo.svg" alt="img"/>
+                                        <img src="/images/logo.png" alt="img"/>
                                     </div>
 
                                     {/* Mid Menu---------------------------------- */}
@@ -57,8 +56,8 @@ const Menubar = () => {
                                     <div className={styles.midMenuDiv}>
                                     
                                                
-
                                                 <div className={styles.midMenuBox}>
+
                                                     <Dropdown>
                                                             <Dropdown.Toggle id="dropdown-basic" className={styles.DpBtn}>
                                                              All Category
@@ -78,11 +77,25 @@ const Menubar = () => {
                                                 </div>
 
                                              <div className={`${styles.midMenuBox} ${styles.midMenuBox5}`}>
+
                                                 <span className={styles.spanDivider}></span>
-                                                <input className={styles.inputBtn} type="text" placeholder="I'm shopping for..."/>
-                                                <span className={styles.searchBox}>
-                                                   <CiSearch className={styles.searchBtn}></CiSearch>
-                                                </span>
+
+                                                <Link href="">
+
+                                                     <input className={styles.inputBtn} type="text" placeholder="I'm shopping for..."/>
+
+                                                </Link>
+
+                                                <Link href="">
+
+                                                    <span className={styles.searchBox}>
+
+                                                    <CiSearch className={styles.searchBtn}></CiSearch>
+
+                                                    </span>
+                                                </Link>
+
+                                               
                                              </div>
                                               
                                          
@@ -91,20 +104,35 @@ const Menubar = () => {
                                     {/* right Menu---------------------------------- */}
 
                                     <div className={styles.Menu1IconBox}>
-                                        <BiUser className={styles.Menu1Icon1}></BiUser>
-                                        <AiOutlineHeart className={styles.Menu1Icon2}></AiOutlineHeart>
-                                         <span className={styles.textSpanTop}>2</span>
 
-                                        <FiShoppingCart className={styles.Menu1Icon3}></FiShoppingCart>
-                                         <span className={styles.textSpanTop}>22</span>
+                                        <Link href="">
 
-                                      
+                                          <FaFacebookSquare className={styles.Menu1Icon1}></FaFacebookSquare>
+
+                                        </Link>
+
+                                        <Link href="">
+
+                                          <BsInstagram className={styles.Menu1Icon2}></BsInstagram>
+
+                                        </Link>
+
+                                        <Link href="">
+
+                                          <FaTwitterSquare className={styles.Menu1Icon3}></FaTwitterSquare>
+
+                                        </Link>
+
                                     </div>
 
                                 </div>
+
                             </Col>
+
                         </Row>
+
                     </Container>
+
                 </section>   
                 
 
@@ -126,7 +154,7 @@ const Menubar = () => {
 
                                         <div className={styles.OffcanvasMobile}>
                                             <Button className={styles.MenubarButton} onClick={handleShow}>
-                                                <img src="img/bar.svg" alt="bar" />
+                                                <img src="images/bar.svg" alt="bar" />
                                             </Button>
 
 
@@ -134,12 +162,17 @@ const Menubar = () => {
                                                 <Offcanvas.Header closeButton>
                                                 <Offcanvas.Title>  
                                              <div>
-                                                <img src="img/logo.svg" alt="img"/>
+                                                <img src="images/logo.svg" alt="img"/>
                                             </div>
+
                                             </Offcanvas.Title>
+
                                                 </Offcanvas.Header>
+
                                                 <Offcanvas.Body>
+
                                                      <div className={styles.OffcanvasUlDev}>
+
                                                         <ul>
                                                                     <li><Link href="#">NATIONAL PARKS</Link></li>      
                                                                     <li><Link href="#">THEME PARKS</Link></li>
@@ -156,7 +189,9 @@ const Menubar = () => {
 
 
                                                 </Offcanvas.Body>
+
                                             </Offcanvas>
+
                                         </div>
 
 
@@ -172,7 +207,9 @@ const Menubar = () => {
                                                 
 
                                                     <div className={styles.midMenuBox}>
+
                                                         <Dropdown>
+
                                                                 <Dropdown.Toggle id="dropdown-basic" className={styles.DpBtn}>
                                                                 All Category
 
@@ -186,16 +223,21 @@ const Menubar = () => {
                                                                     <Dropdown.Item href="#/action-3">Vacations by Month</Dropdown.Item>
                                                                     <Dropdown.Item href="#/action-3">Honeymoon Vacations</Dropdown.Item>
                                                                     <Dropdown.Item href="#/action-3"> Vacation by Region </Dropdown.Item>
+
                                                                 </Dropdown.Menu>
+
                                                         </Dropdown>
+
                                                     </div>
 
                                                 <div className={`${styles.midMenuBox} ${styles.midMenuBox5}`}>
+
                                                     <span className={styles.spanDivider}></span>
                                                     <input className={styles.inputBtn} type="text" placeholder="I'm shopping for..."/>
                                                     <span className={styles.searchBox}>
                                                     <CiSearch className={styles.searchBtn}></CiSearch>
                                                     </span>
+
                                                 </div>
                                                 
                                             
@@ -214,8 +256,11 @@ const Menubar = () => {
 
                                         <>
                                             <Button className={styles.MenubarButton} onClick={handleShow}>
+
                                             <HiOutlineBars3CenterLeft  className={styles.MenubarBar}></HiOutlineBars3CenterLeft>
-                                            <Link href="#"> ALL CATEGORIES </Link>
+                                            
+                                            <Link href="#"> LAND OF DREAMS </Link>
+                                            
                                             </Button>
 
 
@@ -224,11 +269,14 @@ const Menubar = () => {
                                                         <Offcanvas.Header closeButton>
                                                         <Offcanvas.Title>  
                                                     <div>
-                                                        <img src="img/logo.svg" alt="img"/>
+                                                        <img src="images/logo.png" alt="img"/>
                                                     </div>
                                                     </Offcanvas.Title>
+
                                                         </Offcanvas.Header>
+
                                                         <Offcanvas.Body>
+
                                                             <div className={styles.OffcanvasUlDev}>
                                                                 <ul>
                                                                     <li><Link href="#">NATIONAL PARKS</Link></li>      
@@ -243,16 +291,11 @@ const Menubar = () => {
 
                                                             </div>
 
-
-
                                                         </Offcanvas.Body>
+
                                             </Offcanvas>
                                         </>
 
-
-
-                                     
-                                        
                                     </div>
                                      
                                     <div className={styles.Menubar2Mid}>
@@ -272,7 +315,6 @@ const Menubar = () => {
                                             </li>
                                             <li><Link href="#">FAMILY TOUR</Link></li>
                                             <li><Link href="#">ROMANTIC</Link></li>
-                                            <li> <Link href="#">WEEKEND</Link></li>
                                             <li><Link href="#">WILDLIFE</Link></li>
                                             <li> <Link href="#">WEEKEND</Link></li>
                                             <li><Link href="#">ADVENTURE</Link></li>
@@ -282,8 +324,6 @@ const Menubar = () => {
 
                                     <div className={styles.Menubar2Right}>
                                       
-                                      
-
                                     </div>
 
                                 </div>
@@ -294,78 +334,16 @@ const Menubar = () => {
                 </section>
 
 
-                {/* ================================================================================================
+            {/* ================================================================================================
                     Banner Bg
-                    ====================================================================================================*/}   
-
-
-
-          {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-           Banner
-           ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-   
-
-
-          {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-           Banner
-           ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-   
-
-
-          {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-           Banner
-           ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-   
-
-
-          {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-           Banner
-           ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-   
-
-
-          {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-           Banner
-           ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-   
-
-
-          {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-           Banner
-           ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-   
-
-
-          {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-           Banner
-           ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-   
-
-
-          {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-           Banner
-           ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-   
-
-
-          {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-           Banner
-           ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-   
-
-
-          {/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-           Banner
-           ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-   
-
+            ====================================================================================================*/}   
 
         </section>
     
     </>
 
-
   )
+  
 }
 
 export default Menubar

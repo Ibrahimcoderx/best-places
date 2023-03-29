@@ -7,69 +7,49 @@ body{
     overflow-x: hidden;
 }
 
-/* swiper.... */
-
-.swiper-pagination span{
-    background-color: #fff;
-    padding: 10px;
-    vertical-align: 10px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.mySwiper .swiper-button-prev {
-  width: 40px;
-  height: 40px;
-  color: #fff;
-  background: red;
-  border-radius: 50%;
-  margin-left: 4%;
-}
-.mySwiper .swiper-button-next {
-  width: 40px;
-  height: 40px;
-  color: #fff;
-  background: red;
-  border-radius: 50%;
-  margin-right: 4%;
+.container ul,
+.container ol {
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-.mySwiper .swiper-button-next:after, .swiper-button-prev:after {
-  font-size: 14px; 
-  margin-top: 3px;
+.container a {
+    text-decoration: none;
 }
 
-.mySwiper  .swiper-button-prev:after, .swiper-button-next:after{
-  font-size: 14px;
+.container a:hover {
+    text-decoration: none;
 }
 
+.container a,
+.container button,
+.container span,
+.container p,
+.container ul,
+.container li,
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6 {
+    margin: 0;
+    padding: 0;
+}
 
-@media (max-width: 990px) {
+.padding-gap{
+    padding-bottom: 100px;
+}
+
+.Hr{
+    border-bottom: 1px solid #808080;
+    margin-bottom: 15px;
     
-  .swiper-pagination span{   
-      padding: 7px;
 }
-}
-
-@media (max-width: 768px) {
-  .swiper-pagination span{   
-      padding: 5px;
-      vertical-align: 0px;
-}
-}
-
-@media (max-width: 575px) {
-  .swiper-pagination span{   
-      padding: 5px;
-      vertical-align: 0px;
-}
-
-.mySwiper .swiper-button-next, .swiper-button-prev{
-  display: none;
-}
-.mySwiper .swiper-button-prev, .swiper-button-next{
-  display: none;
-}
-
-
-
-
-  }

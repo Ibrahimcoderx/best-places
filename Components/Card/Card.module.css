@@ -1,0 +1,19 @@
+.CardItem img{
+    width: 100%;
+    height: 175px;
+}
+
+.CardH2 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color:#333333;
+    padding-top: 5px;
+
+}
+
+.CardH2 h2:hover{
+    color:#FF4F00;
+
+}

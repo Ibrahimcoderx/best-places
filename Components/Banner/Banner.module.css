@@ -1,0 +1,29 @@
+
+.BannerImg img{
+    width: 100%;
+}
+
+.BannerImg{
+    height: 360px;
+}
+
+.BannerH1 h1{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 56px;
+    color:#333333;
+}
+
+.BannerPTxt p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color:#657B83;
+    padding-bottom: 35px;
+}
+
+.BannerH1 h1:hover{
+    color:#FF4F00;
+}

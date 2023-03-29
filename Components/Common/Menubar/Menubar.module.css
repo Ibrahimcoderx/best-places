@@ -1,0 +1,507 @@
+
+/* =================Common===================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Jost&family=Playfair+Display:wght@800&family=Roboto:wght@700&display=swap');
+
+
+
+.Menubar {
+  font-family: 'Jost';
+}
+
+.Menubar ul {
+  margin-bottom: 0;
+}
+
+.Menubar h3{
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--header_color);
+    font-weight: 600;
+}
+
+
+
+.Menubar p{
+    color: var(--text_color);
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+         
+.Menubar a {
+    transition: 0.5s;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+ 
+ 
+.Menubar .section_gaps{
+    margin-top: 100px;
+}
+.Menubar ul{
+    list-style: none;
+    padding: 0%;
+}
+
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Service PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+ 
+.MenubarDiv{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  align-items: center;
+}
+
+.midMenuDiv{
+  display: flex;
+  border: 2px solid #D5D5D5 ;
+  padding: 4px 0px 4px 22px;
+  border-radius: 5px;
+ /* height: 50px; */
+}
+
+
+.selectDiv{
+  border: none;
+  outline: none;
+  font-size: 13px;
+  font-weight: 700;
+  padding-left: 22px;
+}
+
+.inputBtn{
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding-left: 20px;
+  width: 380px;
+}
+
+/* bootstrap drop */
+
+
+
+.DpBtn{
+  padding: 0 !important;
+  background-color: #ffffff !important ;
+  color:#1F1E23 !important;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.DpBtnArr{
+  color:#1F1E23;
+  font-size: 15px;
+  margin-left: 24px;
+}
+
+.DpBtn::after{
+  display: none;
+}
+
+.searchBox{
+  padding: 5px 8px 6px 8px !important;
+  background:#f2f1f5;
+}
+
+.searchBox:hover{
+  background:rgba(64, 5, 238,0.5);
+  border-radius: 5px;
+}
+
+
+.searchBtn{
+  font-size: 25px;
+  color:#000000;
+  font-weight: 900;   
+}
+
+.spanDivider{
+  height: 22px;
+  border-left: 2px solid #EBEBEB;
+  margin-left: 20px;
+}
+
+
+.Menu1IconBox{
+  padding-top: 2px;
+}
+
+.Menu1Icon2{
+  font-size: 22px;
+  margin-left: 34px;
+}
+.Menu1Icon1{
+  font-size: 22px;
+}
+
+.Menu1Icon3{
+  font-size: 22px;
+  margin-left: 34px;
+}
+
+
+.textSpanTop{
+  padding: 2px 4px;
+  background-color: #444FC5;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 8px;
+  vertical-align: 9px;
+  margin-left:-4px;
+}
+
+/* ========================================================================================================================
+Menubar2
+=========================================================================================================================*/
+
+.Menubar2Flu{
+  background-color: #0761d1;
+  margin-top: 16px;
+  padding:0 ;
+}
+
+.MenubarBar{
+  font-size: 30px;
+  margin-right: 20px;
+  margin-top: -5px;
+}
+
+.Menubar2Mid a{
+  padding-bottom: 5px;
+  background-color: #0761d1;
+}
+
+.Menubar2{
+  display: flex;
+  justify-content:space-between;
+  padding:14.3px 0px 4px 0px ;
+  background-color: #0761d1;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Menubar2 a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.Menubar2Row {
+  padding: 0;
+}
+
+.Menubar2Mid ul li {
+  display: inline;
+  padding-left: 34px;
+
+}
+
+.MenubarButton{
+  border: none;
+  background: none;
+  padding: 0;
+ 
+}
+.MenubarButton:hover{
+  background: none !important;
+}
+
+/* offcanvas */
+
+.OffcanvasUlDevMain{
+  background-color:  #444FC5;
+}
+
+.OffcanvasUlDev{
+  color: rgb(255, 255, 255);
+ 
+}
+.OffcanvasUlDev ul{
+  list-style: none;
+}
+.OffcanvasUlDev ul li{
+  margin-bottom: 10px;
+}
+
+.OffcanvasUlDev ul li:hover{
+  background-color: #0761d1;
+  
+}
+
+.OffcanvasUlDev a{
+  font-family: Jost;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px; 
+}
+.OffcanvasUlDev a:hover{
+  color:#f7f6f6 ;
+}
+
+.OffcanvasUlDev ul li {
+      padding: 8px 0px;
+      border-radius: 10px;
+}
+
+
+
+/* -----drop--- */
+/* .Menubar2Mid{
+
+
+} */
+
+.dropdown{
+position: relative;
+}
+
+.dropdownItems  {
+  display: none;
+  padding-left: 0px;
+  border-radius: 10px;
+  margin-left: 20px;
+  
+  
+}
+.dropdownItems:hover  {
+  padding-left: 0px;
+  margin-left: 20px;
+  border-radius: 10px;
+
+  
+}
+
+.dropdownItems a{
+  display: block;
+  padding-bottom: 0;
+  padding: 10px 0px 10px 0px;
+  color: #fff;
+  font-size: 16px;
+  border-bottom: 1px solid #EEEEEE;
+  background-color: #b12934;
+  border-radius: 5px;
+
+}
+
+
+.dropdownItems a:hover{
+ background-color: #0761d1;
+}
+
+.dropdownItems ul li{
+  padding:0;
+}
+
+.dropdownItems ul {
+  padding:0;
+  border-radius: 10px;
+}
+
+.dropdown:hover .dropdownItems { 
+  top:31px;
+  position: absolute; 
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  display: block;
+  box-sizing: border-box;
+  width: 140px;
+  text-align: center;
+  z-index: 2;
+}
+
+.dropdownItems::after { 
+  position: absolute;
+  content: '';
+  top: -15px;
+  left: 10%;
+  width: 30px;
+  height: 15px;
+  border-bottom: solid 15px;
+  border-left: solid 15px transparent;
+  border-right: solid 15px transparent;
+  color: #ffffff;
+}
+
+.Menubar2RightIcon{
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.Menubar2Right a{
+  font-weight: bold;
+}
+
+.Menubar2Left a{
+  font-weight: bold;
+}
+
+
+/* ------Others------ */
+
+.OffcanvasMobile{
+  display: none;
+}
+
+.midMenuDiv1{
+  display:none;
+}
+
+.MenubarButton img{
+ display: none;
+}
+
+
+.OffcanvasUlDevMain{
+        background-image: linear-gradient(to top, #b8219f, #d7047d, #e6205a, #e74437, #dc650e);
+   
+}
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Service PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 1441px) {
+
+
+}
+
+ @media (max-width: 1440px) {
+
+
+}
+
+
+@media (max-width: 1280px) {
+
+
+}
+
+@media (max-width: 991px) {
+
+.OffcanvasMobile{
+        display: block;
+    }
+
+.midMenuDiv{
+    display: none;
+}
+
+
+.midMenuDiv1{
+    display: block;
+    background-color: #ffffff;
+    display: flex;
+    margin-bottom: 16px; 
+    
+}
+
+.MenubarButton img{
+    margin-top: 10px;
+    display: block;
+}
+
+.Menubar2Left{
+    display: none;
+}
+
+.Menubar2Mid{
+    display: none;
+}
+
+.Menubar2Right{
+    display: none;
+}
+
+
+}
+
+
+@media (max-width: 768px) {
+
+
+    .inputBtn{
+        width: 280px;
+    }
+
+   .DpBtnArr{
+        margin-left: 5px;
+    }
+
+
+}
+
+
+@media (max-width: 575px) {
+
+    .inputBtn{
+        width: 160px;
+    }
+
+    .Menubar a {
+        transition: 0.5s;
+        /* display: block; */
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+     
+    .Menubar a.bg{
+        margin-top: 14px;
+        padding: 10px 38px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .Menubar a svg{
+        font-size: 20px;
+        margin-top: -5px;
+        margin-right: 10px;
+    }
+
+    
+    }
+
+
+    @media (max-width: 400px) {
+
+        .inputBtn{
+            width: 120px;
+        }
+
+        .midMenuDiv1 {
+            display: block;
+            background-color: #ffffff;
+            display: flex;          
+            margin-bottom: 16px;
+         
+        }
+
+        .spanDivider {
+            margin-left: 2px;
+        }
+
+        .midMenuDiv {
+            padding: 9px 0px 9px 2px;
+
+        }
+
+    }
+
+
+  /* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    Service PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
