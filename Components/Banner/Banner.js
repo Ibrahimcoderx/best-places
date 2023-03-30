@@ -2,7 +2,7 @@ import style from '../Banner/Banner.module.css'
 
 import Image from 'next/image';
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+
 
 const Banner = (props) => {
 

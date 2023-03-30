@@ -12,10 +12,11 @@ import Link from 'next/link'
 import BannerImg from '../public/images/img2.png'
 import CardImg from '../public/images/img3.png'
 import CardImg1 from '../public/images/img4.png'
-import BannerImg3 from '../public/images/img5.png'
-import BannerImg4 from '../public/images/img6.png'
+import CardImg2 from '../public/images/img5.png'
+import CardImg3 from '../public/images/img6.png'
 import Card from '@/Components/Card/Card'
 import Card2 from '@/Components/Card2/Card2'
+import LinkGroup from '@/Components/LinkGroup/LinkGroup'
 
 
 const index = () => {
@@ -34,7 +35,7 @@ const index = () => {
 
       <section>
 
-        <Container>
+        <Container fluid>
 
             <Row>
 
@@ -44,6 +45,8 @@ const index = () => {
 
               </Col>
               
+              {/* Card============================= */}
+
               <Col sm={12} md={6}>
 
                 <Link href="https://vacationidea.com/ ">
@@ -86,21 +89,68 @@ const index = () => {
 
                     </Col>
 
+                    <Col sm={12} md={6}>
+
+                      <Link href="https://vacationidea.com/">
+
+                        <Card
+                            CardImg={CardImg2}
+                            CardH2="25 Best Romantic Weekend Getaways in Illinois Hello"
+                        />
+
+                      </Link>
+
+                    </Col>
+
+                    <Col sm={12} md={6}>
+
+                      <Link href="https://vacationidea.com/">
+
+                        <Card
+                            CardImg={CardImg3}
+                            CardH2="25 Best Romantic Weekend Getaways in Illinois Hello"
+                        />
+
+                      </Link>
+
+                    </Col>
+
                 </Row>
 
 
               </Col>
 
+              {/* Card2======================== */}
+
               <Col sm={12} md={3}>
 
-              <Link href="https://vacationidea.com/">
+                <Link href="https://vacationidea.com/">
 
-                <Card2
-                    CardImg={CardImg1}
-                    CardH2="25 Best Beaches in California"
-                />
+                  <Card2
+                      CardImg={CardImg1}
+                      CardH2="25 Best Beaches in California"
+                  />
 
-              </Link>
+                </Link>
+
+                <Link href="https://vacationidea.com/">
+
+                  <Card2
+                      CardImg={CardImg1}
+                      CardH2="25 Best Beaches in California"
+                  />
+
+                </Link>
+
+                <Link href="https://vacationidea.com/">
+
+                  <Card2
+                      CardImg={CardImg1}
+                      CardH2="25 Best Beaches in California"
+                  />
+
+                </Link>
+
 
               </Col>
 
@@ -110,12 +160,30 @@ const index = () => {
 
       </section>
       
-      <div className='padding-gap'></div>
       {/* ==========================================================================================
-              Banner
+              LingGroup
       ==============================================================================================*/}
+      <section>
 
+        <Container fluid>
 
+                <Row>
+
+                    <Col xs={3}></Col>
+                    <Col sm={12} lg={6}>
+
+                      <LinkGroup></LinkGroup>
+
+                    </Col>
+                    <Col xs={3}></Col>
+
+                </Row>
+
+        </Container>
+
+      </section>
+
+      <div className='padding-gap'></div>
 
       {/* ==========================================================================================
               Banner

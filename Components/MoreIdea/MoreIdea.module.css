@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.MoreIdea{
+    margin-left: 15%;
+}
+
 .MoreIdea h5{
     font-size: 22px;
     color:#ff5002;
@@ -33,3 +37,11 @@
     color:#ff5002;
     font-weight: 500;
 }
+
+
+@media (max-width: 1200px) {
+
+    .MoreIdea{
+        margin-left: 0%;
+    }
+ }

@@ -170,6 +170,11 @@ Menubar2
   padding:0 ;
 }
 
+.Menubar{
+  position: sticky;
+  top:-87px;
+}
+
 .MenubarBar{
   font-size: 30px;
   margin-right: 20px;

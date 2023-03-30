@@ -3,6 +3,9 @@
     height: 105px;
 }
 
+.Card2{
+    padding-right: 15%;
+}
 .CardH2 h2{
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -10,8 +13,17 @@
     line-height: 20px;
     color:#333333;
     padding-top: 5px;
+    padding-bottom: 30px;
 }
 
 .CardH2 h2:hover{
     color:#FF4F00;
 }
+
+
+@media (max-width: 1200px) {
+
+    .Card2{
+        padding-right: 0%;
+    }
+ }

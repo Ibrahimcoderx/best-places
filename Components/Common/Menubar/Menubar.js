@@ -141,9 +141,13 @@ const Menubar = () => {
                     Menubar2
                     ====================================================================================================*/}  
 
-                <section  className={styles.MenubarSec}>
+                <section  className={styles.MenubarSec} >
+
+                 
                   <Container fluid className={styles.Menubar2Flu}>
+                    
                     <Container>
+
                         <Row >
                             <Col>
                                 <div className={styles.Menubar2}>
