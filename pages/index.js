@@ -23,7 +23,7 @@ const index = () => {
 
   return (
 
-  <div>
+  <div className='homepage'>
 
        <Menubar></Menubar>
 
@@ -54,7 +54,7 @@ const index = () => {
                   <Banner
                       BannerImg={BannerImg}
                       BannerH1="25 Best Oregon Beaches"
-                      BannerPTxt="From rolling sand dunes to towering sea stacks, Oregon's coastline continually captures the imagination of locals and visitors alike."
+                      BannerPTxt=" From rolling sand dunes to towering sea stacks, Oregon's coastline continually captures the imagination of locals and visitors alike."
                   />
 
                 </Link>
@@ -186,10 +186,77 @@ const index = () => {
       <div className='padding-gap'></div>
 
       {/* ==========================================================================================
-              Banner
+             Body Text
       ==============================================================================================*/}
+      <section>
+
+        <Container fluid>
+
+          <Row>
+
+            <Col xs={3}></Col>
+            <Col sm={12} lg={6}>
+
+              <div className='BodyDiv'>
+
+                  <h2>DREAM VACATION IDEAS</h2>
+
+                  <p>
+                    Whether you are planning a quick weekend getaway, family vacation, honeymoon or a road trip, 
+                    there are many amazing choices in the United States and abroad. If you only have a few days,
+                    browse our weekend getaways page for choices near you so that you can take a short drive rather
+                      than spend precious vacation time on travel. If you have a long weekend or a full week, consider
+                      a trip to the Caribbean, Hawaii, Europe, California and other fun places around the world.
+                  </p>
+
+                  {/* ul----------- */}
+                  
+                  <ul>
+
+                      <li>
+                                <p> 
+
+                                  <Link href=''>California</Link>
+                                  <img src="/images/img5.png" alt="" />
+
+                                  <b>Couples often like similar things:</b> spas, golf, hiking, swimming or just relaxing by the pool.
+                                  The best way to find your perfect vacation is to make a dream list of 10 things that would make 
+                                  you most happy. Bucket list destinations in the U.S. include Key West, New York City and Sanibel Island.
+                                  your anniversary trip should include types of activities that you both enjoy. Best honeymoon destinations:
+                                    vacation getaways on the East Coast, West Coast, Europe.
+                                    
+                                </p>
+
+                      </li>
+
+                      <li>
+                                <p> 
+
+                                  <b>Couples often like similar things:</b> spas, golf, hiking, swimming or just relaxing by the pool.
+                                  The best way to find your perfect vacation is to make a dream list of 10 things that would make 
+                                  you most happy. Bucket list destinations in the U.S. include Key West, New York City and Sanibel Island.
+                                  your anniversary trip should include types of activities that you both enjoy. Best honeymoon destinations:
+                                    vacation getaways on the East Coast, West Coast, Europe.
+                                    
+                                </p>
+
+                      </li>
+
+                  </ul>
+
+              </div>
+
+            </Col>
+            <Col xs={3}></Col>
+
+          </Row>
+
+        </Container>
+
+      </section>
 
 
+      <div className='padding-gap'></div>
 
       {/* ==========================================================================================
               Banner

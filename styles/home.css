@@ -1,0 +1,49 @@
+
+.homepage .BodyDiv h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700 ;
+    font-size: 20px;
+    color:#FF4F00;
+}
+
+.homepage .BodyDiv p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500 ;
+    font-size: 17px;
+    line-height: 28px;
+    color:#333;
+}
+
+.homepage .BodyDiv ul li p{
+    position: relative;
+}
+
+.homepage .BodyDiv ul li {
+   list-style-type: square;
+   margin-left: 20px;
+}
+.homepage .BodyDiv ul li p a{
+    position: absolute;
+    font-weight: 600;
+    top:10px;
+    color: #0020C2;
+    right: 0;
+    padding: 0px 10px 0px 6px;
+    background-color: rgba(223, 233, 249, .6);
+    border-radius: 10px 0px 0px 0px;
+}
+
+.homepage .BodyDiv ul li p a:hover{
+  text-decoration: underline !important;
+}
+
+.homepage .BodyDiv img{
+    float: right;
+    width: 50%;
+    padding-left: 20px;
+}
+.homepage .BodyDiv img::after{
+   content: '';
+   clear: both;
+   display: table;
+}

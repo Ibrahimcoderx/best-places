@@ -59,15 +59,7 @@ a {
 
 .Hr{
     border-bottom: 1px solid #808080;
-    margin-bottom: 15px;
-    
-}
-
- h2{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700 ;
-    font-size: 20px;
-
+    margin-bottom: 15px; 
 }
 
  h2:hover{
