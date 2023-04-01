@@ -1,0 +1,42 @@
+
+.FooterDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    background-color: #034ab4;
+}
+
+.FooterCon{
+padding: 0;
+}
+.FooterDiv > div{
+    text-align: center;
+}
+
+.FooterDiv > div p{
+    padding: 0px 20% 0px 20%;
+    color:#CCCCCC;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.FooterDiv > div img{
+   height: 18px;
+}
+
+.FooterDiv > div a{
+    font-size: 17px;
+    line-height: 48px;
+    color:#FFF;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .FooterDiv > div p{
+        padding: 0px;
+    }
+    
+  }

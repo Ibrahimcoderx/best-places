@@ -11,7 +11,7 @@ const MoreIdea = () => {
 
         <h5>MORE IDEAS</h5>
 
-        <img src="/images/img.png" alt="" />
+        <img src="/images/home/img.png" alt="" />
 
         <ul>
             <li> <Link href=""> <span>1.</span>Louisiana</Link></li>

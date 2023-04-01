@@ -1,5 +1,8 @@
 .CardItem img{
     width: 100%;
+    height: 100%;
+}
+.CardItem {
     height: 175px;
 }
 

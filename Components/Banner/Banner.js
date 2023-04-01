@@ -18,6 +18,10 @@ const Banner = (props) => {
                 <h1>{props.BannerH1}</h1>
             </div>
 
+            <div className={style.BannerH1}>
+                <h2>{props.BannerH2}</h2>
+            </div>
+
             <div className={style.BannerPTxt}>
                 <p>{props.BannerPTxt}</p>
             </div>

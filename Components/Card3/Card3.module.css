@@ -4,16 +4,16 @@
 }
 
 .CardItem {
-    height: 105px;
+    height: 128px;
 }
 
-.Card2{
-    padding-right: 10%;
+.Card3{
+    padding-left: 10%;
 }
 .CardH2 h2{
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 20px;
     color:#333333;
     padding-top: 5px;
@@ -27,7 +27,7 @@
 
 @media (max-width: 1200px) {
 
-    .Card2{
-        padding-right: 0%;
+    .Card3{
+        padding-left: 0%;
     }
  }

@@ -9,7 +9,8 @@ import Link from 'next/link'
 
 // Banner Img
 
-import BannerImg from '../public/images/img2.png'
+import BannerImg from '../public/images/home/img2.png'
+import BannerImg2 from '../public/images/home/bg2.png'
 import CardImg from '../public/images/img3.png'
 import CardImg1 from '../public/images/img4.png'
 import CardImg2 from '../public/images/img5.png'
@@ -53,8 +54,8 @@ const index = () => {
 
                   <Banner
                       BannerImg={BannerImg}
-                      BannerH1="25 Best Oregon Beaches"
-                      BannerPTxt=" From rolling sand dunes to towering sea stacks, Oregon's coastline continually captures the imagination of locals and visitors alike."
+                      BannerH1="Top 25 Oregon Destinations Beaches "
+                      BannerPTxt=" Oregon's rugged and picturesque coastline is a true natural wonder that never fails to mesmerize both locals and tourists. With its stunning sea stacks, rolling sand dunes, and dramatic rocky cliffs, the Oregon coast offers endless opportunities for adventure, relaxation, and exploration."
                   />
 
                 </Link>
@@ -69,7 +70,7 @@ const index = () => {
 
                           <Card
                               CardImg={CardImg}
-                              CardH2="25 Best Romantic Weekend Getaways in Illinois"
+                              CardH2="Illinois Love Stories 25 Romantic Weekend Getaways"
                           />
 
                       </Link>
@@ -82,7 +83,7 @@ const index = () => {
 
                         <Card
                             CardImg={CardImg1}
-                            CardH2="25 Best Romantic Weekend Getaways in Illinois Hello"
+                            CardH2="25 Destinations for Outdoor Enthusiasts Pennsylvania"
                         />
 
                       </Link>
@@ -95,7 +96,7 @@ const index = () => {
 
                         <Card
                             CardImg={CardImg2}
-                            CardH2="25 Best Romantic Weekend Getaways in Illinois Hello"
+                            CardH2="East Coast Serenity 25 Relaxing Beaches"
                         />
 
                       </Link>
@@ -108,7 +109,7 @@ const index = () => {
 
                         <Card
                             CardImg={CardImg3}
-                            CardH2="25 Best Romantic Weekend Getaways in Illinois Hello"
+                            CardH2="Sun Sand and Sea 25 Best Beaches North Carolina"
                         />
 
                       </Link>
@@ -128,7 +129,7 @@ const index = () => {
 
                   <Card2
                       CardImg={CardImg1}
-                      CardH2="25 Best Beaches in California"
+                      CardH2="Discover the Top 25 Weekend Getaways in Pennsylvania"
                   />
 
                 </Link>
@@ -137,7 +138,7 @@ const index = () => {
 
                   <Card2
                       CardImg={CardImg1}
-                      CardH2="25 Best Beaches in California"
+                      CardH2="25 Amazing Day Trips Explore Iowa's "
                   />
 
                 </Link>
@@ -159,7 +160,110 @@ const index = () => {
         </Container>
 
       </section>
+
+      {/* ==========================================================================================
+              Banner2
+      ==============================================================================================*/}
+
+      <section>
+
+        <Container fluid>
+
+            <Row>
+
+              <Col sm={12} md={3}>
+
+              </Col>
+              
+              {/* Card============================= */}
+
+              <Col sm={12} md={6}>
+
+                <Link href="https://vacationidea.com/ ">
+
+                  <Banner
+                      BannerImg={BannerImg2}
+                      BannerH2="25 Best Natural Hot Springs Must-Visit "
+                      BannerPTxt=" From the geothermal wonders of Yellowstone to the steamy hot springs of the Mojave Desert, the United States boasts an abundance of natural hot springs that offer a range of therapeutic benefits, from relaxation and stress relief to healing and rejuvenation. Here are the top 25 must-visit natural hot springs in America that combine stunning scenery, invigorating waters, and unique cultural experiences. Whether you're looking for a secluded wilderness retreat or a vibrant community hot spot, these natural hot springs are sure to delight and inspire."
+                  />
+
+                </Link>
+
+                <div className="Hr"></div>
+
+                <Row>
+                    
+                    <Col sm={12} md={6}>
+
+                      <Link href="https://www.harpersbazaar.com/">
+
+                          <Card
+                              CardImg={CardImg}
+                              CardH2="Discover the Top 25 Weekend Getaways in Pennsylvania"
+                          />
+
+                      </Link>
+
+                    </Col>
+
+                    <Col sm={12} md={6}>
+
+                      <Link href="https://vacationidea.com/">
+
+                        <Card
+                            CardImg={CardImg1}
+                            CardH2="25 Amazing Day Trips Explore Iowa's"
+                        />
+
+                      </Link>
+
+                    </Col>
+
+                    <Col sm={12} md={6}>
+
+                      <Link href="https://vacationidea.com/">
+
+                        <Card
+                            CardImg={CardImg2}
+                            CardH2="Top 14 Waterfalls to Explore Natural Beauty Charlotte Area "
+                        />
+
+                      </Link>
+
+                    </Col>
+
+                    <Col sm={12} md={6}>
+
+                      <Link href="https://vacationidea.com/">
+
+                        <Card
+                            CardImg={CardImg3}
+                            CardH2="Top 25 Hotels with Indoor Swimming Pools"
+                        />
+
+                      </Link>
+
+                    </Col>
+
+                </Row>
+
+
+              </Col>
+
+              {/* Card2======================== */}
+
+              <Col sm={12} md={3}>
+
+              </Col>
+
+            </Row>
+
+        </Container>
+
+      </section>
       
+
+
       {/* ==========================================================================================
               LingGroup
       ==============================================================================================*/}
@@ -218,13 +322,14 @@ const index = () => {
 
                                   <Link href=''>California</Link>
                                   <img src="/images/img5.png" alt="" />
-
+                                  
                                   <b>Couples often like similar things:</b> spas, golf, hiking, swimming or just relaxing by the pool.
                                   The best way to find your perfect vacation is to make a dream list of 10 things that would make 
                                   you most happy. Bucket list destinations in the U.S. include Key West, New York City and Sanibel Island.
                                   your anniversary trip should include types of activities that you both enjoy. Best honeymoon destinations:
                                     vacation getaways on the East Coast, West Coast, Europe.
                                     
+                                   
                                 </p>
 
                       </li>
@@ -237,7 +342,7 @@ const index = () => {
                                   you most happy. Bucket list destinations in the U.S. include Key West, New York City and Sanibel Island.
                                   your anniversary trip should include types of activities that you both enjoy. Best honeymoon destinations:
                                     vacation getaways on the East Coast, West Coast, Europe.
-                                    
+                                
                                 </p>
 
                       </li>

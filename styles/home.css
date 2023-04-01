@@ -1,4 +1,6 @@
 
+/* ==============================Home============================= */
+
 .homepage .BodyDiv h2{
     font-family: 'Open Sans', sans-serif;
     font-weight: 700 ;
@@ -29,7 +31,7 @@
     color: #0020C2;
     right: 0;
     padding: 0px 10px 0px 6px;
-    background-color: rgba(223, 233, 249, .6);
+    background-color: rgba(255,255,255,.85);
     border-radius: 10px 0px 0px 0px;
 }
 
@@ -40,10 +42,111 @@
 .homepage .BodyDiv img{
     float: right;
     width: 50%;
+    height: 180px;
     padding-left: 20px;
 }
+
 .homepage .BodyDiv img::after{
    content: '';
    clear: both;
    display: table;
 }
+
+.clearBoth{
+    clear: both;
+}
+
+
+
+/* =======================weekend-getaways============================== */
+
+.CardToph1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    line-height: 15px;
+    color:#FF4F00;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.CardToph2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    line-height: 15px;
+    color:#FF4F00;
+    margin-top: 20px;
+}
+
+.BlogComponent h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    line-height: 32px;
+    color:#333333;
+    font-weight: 400;
+}
+
+.BlogComponent h2 span{
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    line-height: 20px;
+    color:#fff;
+    font-weight: 400;
+    padding: 0px 10px;
+    background-color:#00Aeef;
+    margin-right: 6px;
+}
+
+/* Float */
+
+ .BlogComponent  p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500 ;
+    font-size: 19px;
+    line-height: 33px;
+    color:#333;
+}
+
+ .BlogComponent  p{
+    position: relative;
+}
+
+ .BlogComponent  p span{
+    position: absolute;
+    top:245px ;
+    right: 40%;
+    font-size: 12px;
+    color:#999;
+}
+
+ .BlogComponent  img{
+    float: right;
+    width: 60%;
+    height: 245px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ .BlogComponent  img::after{
+   content: '';
+   clear: both;
+   display: table;
+}
+
+@media (max-width: 767.98px) { 
+
+    .BlogComponent  img{
+        float: none;
+        width: 100%;
+        height: 245px;
+        padding-left: 0px;
+    }
+
+
+    .homepage .BodyDiv img{
+        float: none;
+        width: 100%;
+        height: 180px;
+        padding-left: 0px;
+    }
+
+ }

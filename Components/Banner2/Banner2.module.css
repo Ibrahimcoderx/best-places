@@ -1,0 +1,46 @@
+
+.BannerImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.BannerImg{
+    height: 397px;
+}
+
+.BannerH1 h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 56px;
+    color:#333333;
+    margin-top: 15px;
+}
+
+.BannerPTxt1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    color:#797878;
+}
+
+.BannerPTxt2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color:#797878;
+    padding-top: 6px;
+}
+
+.BannerH1 h1:hover{
+    color:#FF4F00;
+}
+
+@media screen and (max-width: 767px) {
+   
+    .BannerImg{
+        height: 260px;
+    }
+  }
