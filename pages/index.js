@@ -129,7 +129,7 @@ const index = () => {
 
                   <Card2
                       CardImg={CardImg1}
-                      CardH2="Discover the Top 25 Weekend Getaways in Pennsylvania"
+                      CardH2="The Top 25 Best Beaches to Visit in California"
                   />
 
                 </Link>
@@ -138,7 +138,7 @@ const index = () => {
 
                   <Card2
                       CardImg={CardImg1}
-                      CardH2="25 Amazing Day Trips Explore Iowa's "
+                      CardH2="Discover the Best 23 Beaches to Visit in North Carolina "
                   />
 
                 </Link>
@@ -147,7 +147,25 @@ const index = () => {
 
                   <Card2
                       CardImg={CardImg1}
-                      CardH2="25 Best Beaches in California"
+                      CardH2="Top 25 Caribbean Destinations for Fun-Filled Family Getaways"
+                  />
+
+                </Link>
+
+                <Link href="https://vacationidea.com/">
+
+                  <Card2
+                      CardImg={CardImg1}
+                      CardH2="25 Wonders of the World: Unveiling the Most Gorgeous Places to Visit"
+                  />
+
+                </Link>
+
+                <Link href="https://vacationidea.com/">
+
+                  <Card2
+                      CardImg={CardImg1}
+                      CardH2="25 Perfect Weekend Getaways for Romance and Relaxation"
                   />
 
                 </Link>
@@ -288,10 +306,12 @@ const index = () => {
       </section>
 
       <div className='padding-gap'></div>
+      
 
       {/* ==========================================================================================
              Body Text
       ==============================================================================================*/}
+
       <section>
 
         <Container fluid>
@@ -303,7 +323,7 @@ const index = () => {
 
               <div className='BodyDiv'>
 
-                  <h2>DREAM VACATION IDEAS</h2>
+                  <h2>DREAM VACATION DESTINATIONS</h2>
 
                   <p>
                     Whether you are planning a quick weekend getaway, family vacation, honeymoon or a road trip, 
