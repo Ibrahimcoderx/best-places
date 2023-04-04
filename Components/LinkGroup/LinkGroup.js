@@ -24,7 +24,7 @@ const LinkGroup = () => {
 
                     <Link href="">
 
-                        <img src="/images/img7.png" alt="" />
+                        <img src="/images/home/img11.png" alt="" />
 
                         <h2 className={style.LinkGroupH22}>Places to Explore from San Francisco</h2>
 
@@ -66,9 +66,9 @@ const LinkGroup = () => {
 
                     <Link href="">
 
-                        <img src="/images/img7.png" alt="" />
+                        <img src="/images/home/img12.png" alt="" />
 
-                        <h2 className={style.LinkGroupH22}>Getaways from San Francisco</h2>
+                        <h2 className={style.LinkGroupH22}>Getaways from Florida Weekend Getaways</h2>
 
                     </Link>
 
@@ -109,7 +109,7 @@ const LinkGroup = () => {
 
                     <Link href="">
 
-                        <img src="/images/img7.png" alt="" />
+                        <img src="/images/home/img13.png" alt="" />
 
                         <h2 className={style.LinkGroupH22}>Relaxing Weekend Escapes from New York</h2>
 
