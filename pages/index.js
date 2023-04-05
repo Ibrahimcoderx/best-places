@@ -27,6 +27,7 @@ import CardImg22 from '../public/images/home/img22.png'
 import Card from '@/Components/Card/Card'
 import Card2 from '@/Components/Card2/Card2'
 import LinkGroup from '@/Components/LinkGroup/LinkGroup'
+import Meta from '@/Components/Common/Meta/Meta'
 
 
 const index = () => {
@@ -34,6 +35,18 @@ const index = () => {
   return (
 
   <div className='homepage'>
+
+        <Meta  
+        
+             title="Best Weekend Ideas for Fun and Adventure | Discover the Perfect Getaway"
+
+             description="Get ready for an unforgettable weekend with our top 25 ideas for fun and adventure!
+                          Whether you're looking for a romantic escape or a family-friendly getaway,
+                          we've got you covered. Discover new activities and explore exciting destinations 
+                          for the perfect weekend retreat."
+
+             keywords="Weekend ideas, Romantic getaways, Family trips, Adventure activities, Fun activities"
+        />
 
        <Menubar></Menubar>
 
@@ -51,7 +64,7 @@ const index = () => {
 
               <Col sm={12} md={3}>
 
-                <MoreIdea></MoreIdea>
+                  <MoreIdea></MoreIdea>
 
               </Col>
               
