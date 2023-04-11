@@ -4,6 +4,9 @@ import Image from 'next/image'
 
 const Banner2 = (props) => {
 
+    const today = new Date();
+    const Year = today.getFullYear();
+    
   return (
 
     <div>
@@ -13,7 +16,7 @@ const Banner2 = (props) => {
         </div>
 
         <div className={style.BannerPTxt1}>
-            <p>{props.BannerPTxt1}</p>
+            <p>By VacationIda Staff on - {Year} Updated</p>
         </div>
             
         <div className={style.BannerImg}>

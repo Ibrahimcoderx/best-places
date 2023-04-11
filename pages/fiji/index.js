@@ -7,7 +7,7 @@ import Menubar from '@/Components/Common/Menubar/Menubar'
 // Img
 
 import CardImg from '../../public/images/img3.png'
-import BannerImg from '../../public/images/weekend-getaways/img.jpeg'
+import BannerImg from '../../public/images/fiji/img.jpeg'
 
 // Component
 
@@ -19,6 +19,7 @@ import Footer from '@/Components/Common/Footer/Footer'
 
 
 const index = () => {
+
 
   return (
 
@@ -64,7 +65,6 @@ const index = () => {
                 <Banner2
 
                     BannerH1=" Water Island Unforgettable Honeymoon Destinations in Fiji 20 Gorgeous Ideas"
-                    BannerPTxt1="By VacationIda Staff on March 31, 2023 - Updated"
                     BannerImg={BannerImg}
                     BannerPTxt2="Courtesy of - Fotolia.com"
 
@@ -126,7 +126,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img1.jpeg" alt="" />
                                     
                                 <span>© Nadi</span>
                                     
@@ -161,7 +161,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img2.jpeg" alt="" />
                                     
                                 <span>© Denarau Island</span>
                                     
@@ -192,7 +192,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img3.jpeg" alt="" />
                                     
                                 <span>© Yasawa Islands</span>
                                     
@@ -225,7 +225,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img4.jpeg" alt="" />
                                     
                                 <span>© Mamanuca Islands</span>
                                     
@@ -258,7 +258,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img5.jpeg" alt="" />
                                     
                                 <span>© Suva</span>
                                     
@@ -289,7 +289,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img6.jpeg" alt="" />
                                     
                                 <span>© Taveuni Island</span>
 
@@ -321,7 +321,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img7.jpeg" alt="" />
                                     
                                 <span>© Coral Coast</span>
                                     
@@ -354,7 +354,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img8.jpeg" alt="" />
                                     
                                 <span>© Pacific Harbour</span>
                                     
@@ -387,7 +387,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img9.jpeg" alt="" />
                                     
                                 <span>© Savusavu</span>
 
@@ -419,7 +419,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img10.jpeg" alt="" />
                                     
                                 <span>© Kadavu Island</span>
                                     
@@ -450,7 +450,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img11.jpeg" alt="" />
                                     
                                 <span>© Viti Levu</span>
                                     
@@ -481,7 +481,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img12.jpeg" alt="" />
                                     
                                 <span>© Vanua Levu</span>
                                     
@@ -512,7 +512,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img13.jpeg" alt="" />
                                     
                                 <span>© Lautoka</span>
 
@@ -546,7 +546,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img14.jpeg" alt="" />
                                     
                                 <span>© Beqa Island</span>
                                     
@@ -579,7 +579,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img15.jpeg" alt="" />
                                     
                                 <span>© Sigatoka</span>
                                     
@@ -614,7 +614,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img21.jpeg" alt="" />
                                     
                                 <span>© Fiji Water</span>
                                 
@@ -648,7 +648,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img22.jpeg" alt="" />
                                     
                                 <span>©  Fiji Airways</span>
                                     
@@ -684,7 +684,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img23.jpeg" alt="" />
                                     
                                 <span>© Time in Fiji</span>
 
@@ -716,7 +716,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img18.jpeg" alt="" />
                                     
                                 <span>© Where is Fiji</span>
                                     
@@ -748,7 +748,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img19.jpeg" alt="" />
                                     
                                 <span>© Where is Fiji</span>
                                     
@@ -779,7 +779,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <img src="/images/fiji/img20.jpeg" alt="" />
                                     
                                 <span>© is fiji a country ?</span>
                                     

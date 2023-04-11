@@ -62,7 +62,6 @@ const index = () => {
                     <Banner2
                     
                         BannerH1="25 Best North Carolina Weekend Destinations for Every Traveler"
-                        BannerPTxt1="By VacationIda Staff on March 31, 2023 - Updated"
                         BannerImg={BannerImg}
                         BannerPTxt2="Courtesy of - Fotolia.com"
 
