@@ -269,6 +269,10 @@ Menubar2
 
 } */
 
+.midMenuBoxx{
+  padding: 10px;
+}
+
 .dropdown{
 position: relative;
 }

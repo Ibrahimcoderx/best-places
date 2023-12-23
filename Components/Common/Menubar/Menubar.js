@@ -65,7 +65,7 @@ const Menubar = () => {
                                                                 <IoIosArrowDown className={styles.DpBtnArr}></IoIosArrowDown>
                                                             </Dropdown.Toggle>
 
-                                                            <Dropdown.Menu>
+                                                            <Dropdown.Menu className={styles.midMenuBoxx}>
                                                                     <Dropdown.Item href="#/action-1">Cheap Vacations</Dropdown.Item>
                                                                     <Dropdown.Item href="#/action-2">Beach Vacations</Dropdown.Item>
                                                                     <Dropdown.Item href="#/action-3">Vacations by Season</Dropdown.Item>

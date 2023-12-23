@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Container } from 'react-bootstrap'
 import Link from 'next/link';
 
@@ -8,6 +8,12 @@ import { BiLike} from "react-icons/bi";
 
 
 const VacationIdea = () => {
+
+  const [count, setCount] = useState(562)
+
+  function handleClick() {
+    setCount(count + 1);
+  }
 
   return (
 
@@ -25,7 +31,7 @@ const VacationIdea = () => {
 
               <div>
 
-                  <Link className={Styles.VacationIdeaLink1} href=""><BiLike/> Like 562k</Link>
+                  <Link onClick={handleClick} className={Styles.VacationIdeaLink1} href=""><BiLike/> Like {count}k</Link>
 
                   <Link className={Styles.VacationIdeaLink2} href=""><AiOutlineTwitter/> Tweet</Link>
 
