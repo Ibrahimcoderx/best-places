@@ -17,6 +17,10 @@ import MoreIdea from '@/Components/MoreIdea/MoreIdea'
 import Meta from '@/Components/Common/Meta/Meta'
 import Footer from '@/Components/Common/Footer/Footer'
 
+// Lazy loading
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 
 const index = () => {
 
@@ -129,7 +133,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img1.jpeg" alt="" />
                                 
                                 <span>© Asheville</span>
                                 
@@ -176,7 +180,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img2.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img2.jpeg" alt="" />
                                 
                                 <span>© Wilmington</span>
                                 
@@ -207,7 +211,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img3.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img3.jpeg" alt="" />
                                 
                                 <span>© Raleigh</span>
 
@@ -239,7 +243,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img4.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img4.jpeg" alt="" />
                                 
                                 <span>© Durham</span>
 
@@ -271,7 +275,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img5.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img5.jpeg" alt="" />
                                 
                                 <span>© Charlotte</span>
 
@@ -303,7 +307,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img6.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img6.jpeg" alt="" />
                                 
                                 <span>© Outer Banks</span>
 
@@ -336,7 +340,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img7.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img7.jpeg" alt="" />
                                 
                                 <span>© Winston-Salem</span>
 
@@ -369,7 +373,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img8.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img8.jpeg" alt="" />
                                 
                                 <span>©  Boone </span>
 
@@ -401,7 +405,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img9.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img9.jpeg" alt="" />
                                 
                                 <span>©  Greensboro </span>
 
@@ -433,7 +437,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img10.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img10.jpeg" alt="" />
                                 
                                 <span>© Chapel Hill</span>
 
@@ -467,7 +471,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img11.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img11.jpeg" alt="" />
                                 
                                 <span>© Lake Lure</span>
 
@@ -499,7 +503,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img12.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img12.jpeg" alt="" />
                                 
                                 <span>© Blowing Rock</span>
 
@@ -532,7 +536,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img13.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img13.jpeg" alt="" />
                                 
                                 <span>© Hendersonville</span>
 
@@ -567,7 +571,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img14.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img14.jpeg" alt="" />
                                 
                                 <span>© Brevard</span>
                                 
@@ -604,7 +608,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img15.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img15.jpeg" alt="" />
                                 
                                 <span>© Boone </span>
 
@@ -637,7 +641,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img16.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img16.jpeg" alt="" />
                                 
                                 <span>© Asheville </span>
 
@@ -670,7 +674,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img17.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img17.jpeg" alt="" />
                                 
                                 <span>©  Hickory </span>
 
@@ -700,7 +704,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img18.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img18.jpeg" alt="" />
                                 
                                 <span>©  Highlands</span>
 
@@ -732,7 +736,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img19.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img19.jpeg" alt="" />
                                 
                                 <span>©  Maggie Valley</span>
 
@@ -762,7 +766,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img20.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img20.jpeg" alt="" />
                                 
                                 <span>©  New Bern</span>
 
@@ -795,7 +799,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img21.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img21.jpeg" alt="" />
                                 
                                 <span>©  Pinehurst</span>
 
@@ -831,7 +835,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img22.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img22.jpeg" alt="" />
                                 
                                 <span>©  Kitty Hawk</span>
 
@@ -863,7 +867,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img23.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img23.jpeg" alt="" />
                                 
                                 <span>©  Emerald Isle</span>
 
@@ -895,7 +899,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img24.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img24.jpeg" alt="" />
                                 
                                 <span>©  Mount Airy</span>
 
@@ -927,7 +931,7 @@ const index = () => {
 
                         <p> 
 
-                                <img src="/images/weekend-getaways/img25.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/weekend-getaways/img25.jpeg" alt="" />
                                 
                                 <span>©  Chimney Rock</span>
 

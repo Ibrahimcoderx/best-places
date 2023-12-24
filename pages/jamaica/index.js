@@ -17,6 +17,10 @@ import MoreIdea from '@/Components/MoreIdea/MoreIdea'
 import Meta from '@/Components/Common/Meta/Meta'
 import Footer from '@/Components/Common/Footer/Footer'
 
+// Lazy loading
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 
 const index = () => {
   
@@ -139,7 +143,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img1.jpeg" alt="" />
                                     
                                 <span>@  Negril  </span>
 
@@ -182,7 +186,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img2.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img2.jpeg" alt="" />
                                     
                                 <span>@   Montego Bay  </span>
 
@@ -226,7 +230,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img27.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img27.jpeg" alt="" />
                                     
                                 <span>@    Ocho Rios</span>
                                 Ocho Rios is a stunningly beautiful town located in the northern coast of Jamaica. It's a perfect destination for newlyweds to spend their honeymoon. The town offers a perfect blend of adventure, relaxation, and romance that will make your honeymoon an unforgettable experience. Here are ten romantic Ocho Rios honeymoon ideas for couples:
@@ -269,7 +273,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img3.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img3.jpeg" alt="" />
                                     
                                 <span>@ Kingston   </span>
 
@@ -314,7 +318,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img4.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img4.jpeg" alt="" />
                                     
                                 <span>@   Port Antonio </span>
 
@@ -358,7 +362,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img5.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img5.jpeg" alt="" />
                                     
                                 <span>@   Treasure Beach </span>
 
@@ -404,7 +408,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img6.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img6.jpeg" alt="" />
                                     
                                 <span>@   Runaway Bay </span>
 
@@ -444,7 +448,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img7.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img7.jpeg" alt="" />
                                     
                                 <span>@   Falmouth </span>
 
@@ -482,7 +486,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img8.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img8.jpeg" alt="" />
                                     
                                 <span>@   Rose Hall </span>
 
@@ -522,7 +526,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img9.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img9.jpeg" alt="" />
                                     
                                 <span>@  Oracabessa  </span>
 
@@ -567,7 +571,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img10.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img10.jpeg" alt="" />
                                     
                                 <span>@   Blue Lagoon </span>
 
@@ -610,7 +614,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img11.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img11.jpeg" alt="" />
                                     
                                 <span>@   Doctor's Cave Beach </span>
 
@@ -647,7 +651,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img12.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img12.jpeg" alt="" />
                                     
                                 <span>@  Seven Mile Beach  </span>
 
@@ -692,7 +696,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img13.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img13.jpeg" alt="" />
                                     
                                 <span>@  Dunn's River Falls  </span>
 
@@ -733,7 +737,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img14.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img14.jpeg" alt="" />
                                     
                                 <span>@   Boston Bay </span>
 
@@ -781,7 +785,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img15.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img15.jpeg" alt="" />
                                     
                                 <span>@  Rio Grande  </span>
 
@@ -817,7 +821,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img16.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img16.jpeg" alt="" />
                                     
                                 <span>@ Hellshire Beach  </span>
 
@@ -861,7 +865,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img17.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img17.jpeg" alt="" />
                                     
                                 <span>@  Frenchman's Cove  </span>
 
@@ -907,7 +911,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img18.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img18.jpeg" alt="" />
                                     
                                 <span>@  Lime Cay  </span>
                                 Jamaica is an island paradise known for its lush greenery, pristine beaches, and laid-back culture. It's no wonder that it is one of the top destinations for honeymooners from around the world. Among the many breathtaking locations on the island, Lime Cay is a hidden gem that offers couples an intimate and unforgettable honeymoon experience.
@@ -954,7 +958,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img19.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img19.jpeg" alt="" />
                                     
                                 <span>@  Bob Marley  </span>
 
@@ -993,7 +997,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img20.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img20.jpeg" alt="" />
                                     
                                 <span>@  Blue Mountains  </span>
 
@@ -1038,7 +1042,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img21.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img21.jpeg" alt="" />
                                     
                                 <span>@   Reach Falls </span>
 
@@ -1079,7 +1083,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img22.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img22.jpeg" alt="" />
                                     
                                 <span>@  Where Is Jamaica  </span>
 
@@ -1121,7 +1125,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img23.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img23.jpeg" alt="" />
                                     
                                 <span>@ is jamaica safe  </span>
 
@@ -1189,7 +1193,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img24.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img24.jpeg" alt="" />
                                     
                                 <span>@   Jamaica Observer </span>
 
@@ -1221,7 +1225,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/jamaica/img25.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/jamaica/img25.jpeg" alt="" />
                                     
                                 <span>@  passport jamaica  </span>
 

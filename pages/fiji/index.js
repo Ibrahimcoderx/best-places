@@ -17,6 +17,10 @@ import MoreIdea from '@/Components/MoreIdea/MoreIdea'
 import Meta from '@/Components/Common/Meta/Meta'
 import Footer from '@/Components/Common/Footer/Footer'
 
+// Lazy loading
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 
 const index = () => {
 
@@ -126,7 +130,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img1.jpeg" alt="" />
                                     
                                 <span>© Nadi</span>
                                     
@@ -161,7 +165,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img2.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img2.jpeg" alt="" />
                                     
                                 <span>© Denarau Island</span>
                                     
@@ -192,7 +196,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img3.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img3.jpeg" alt="" />
                                     
                                 <span>© Yasawa Islands</span>
                                     
@@ -225,7 +229,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img4.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img4.jpeg" alt="" />
                                     
                                 <span>© Mamanuca Islands</span>
                                     
@@ -258,7 +262,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img5.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img5.jpeg" alt="" />
                                     
                                 <span>© Suva</span>
                                     
@@ -289,7 +293,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img6.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img6.jpeg" alt="" />
                                     
                                 <span>© Taveuni Island</span>
 
@@ -321,7 +325,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img7.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img7.jpeg" alt="" />
                                     
                                 <span>© Coral Coast</span>
                                     
@@ -354,7 +358,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img8.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img8.jpeg" alt="" />
                                     
                                 <span>© Pacific Harbour</span>
                                     
@@ -387,7 +391,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img9.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img9.jpeg" alt="" />
                                     
                                 <span>© Savusavu</span>
 
@@ -419,7 +423,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img10.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img10.jpeg" alt="" />
                                     
                                 <span>© Kadavu Island</span>
                                     
@@ -450,7 +454,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img11.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img11.jpeg" alt="" />
                                     
                                 <span>© Viti Levu</span>
                                     
@@ -481,7 +485,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img12.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img12.jpeg" alt="" />
                                     
                                 <span>© Vanua Levu</span>
                                     
@@ -512,7 +516,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img13.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img13.jpeg" alt="" />
                                     
                                 <span>© Lautoka</span>
 
@@ -546,7 +550,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img14.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img14.jpeg" alt="" />
                                     
                                 <span>© Beqa Island</span>
                                     
@@ -579,7 +583,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img15.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img15.jpeg" alt="" />
                                     
                                 <span>© Sigatoka</span>
                                     
@@ -614,7 +618,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img21.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img21.jpeg" alt="" />
                                     
                                 <span>© Fiji Water</span>
                                 
@@ -648,7 +652,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img22.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img22.jpeg" alt="" />
                                     
                                 <span>©  Fiji Airways</span>
                                     
@@ -684,7 +688,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img23.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img23.jpeg" alt="" />
                                     
                                 <span>© Time in Fiji</span>
 
@@ -716,7 +720,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img18.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img18.jpeg" alt="" />
                                     
                                 <span>© Where is Fiji</span>
                                     
@@ -748,7 +752,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img19.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img19.jpeg" alt="" />
                                     
                                 <span>© Where is Fiji</span>
                                     
@@ -779,7 +783,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/fiji/img20.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/fiji/img20.jpeg" alt="" />
                                     
                                 <span>© is fiji a country ?</span>
                                     

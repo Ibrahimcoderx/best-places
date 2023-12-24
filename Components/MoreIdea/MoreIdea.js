@@ -22,12 +22,11 @@ const MoreIdea = () => {
             <li> <Link href="maryland"> <span>6.</span>Maryland</Link></li>
             <li> <Link href="fiji"> <span>7.</span>Fiji</Link></li>
             <li> <Link href="weekend-getaways"> <span>8.</span>Weekend Getaways</Link></li>
-            <li> <Link href="luxury-vacatio"> <span>9.</span>Luxury Vacation</Link></li>
+            <li> <Link href="luxury-vacation"> <span>9.</span>Luxury Vacation</Link></li>
             <li> <Link href="beaches-us"> <span>10.</span>Beaches United states</Link></li>
 
         </ul>
 
-        
     </div>
 
   )

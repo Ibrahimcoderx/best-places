@@ -17,6 +17,10 @@ import MoreIdea from '@/Components/MoreIdea/MoreIdea'
 import Meta from '@/Components/Common/Meta/Meta'
 import Footer from '@/Components/Common/Footer/Footer'
 
+// Lazy loading
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 
 const index = () => {
   
@@ -138,7 +142,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img1.jpeg" alt="" />
                                     
                                 <span>@ Natchitoches </span>
                               
@@ -171,7 +175,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img2.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img2.jpeg" alt="" />
                                     
                                 <span>@ St. Francisville </span>
                               
@@ -210,7 +214,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img3.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img3.jpeg" alt="" />
                                     
                                 <span>@ New Orleans </span>
                               
@@ -245,7 +249,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img4.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img4.jpeg" alt="" />
                                     
                                 <span>@ Grand Isle </span>
 
@@ -279,7 +283,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img5.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img5.jpeg" alt="" />
                                     
                                 <span>@ Lafayette </span>
                               
@@ -320,7 +324,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img6.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img6.jpeg" alt="" />
                                     
                                 <span>@ Baton Rouge  </span>
                                 Are you looking for a weekend getaway that is not too far from home, but offers a change of pace and scenery? Look no further than Baton Rouge, Louisiana.
@@ -355,7 +359,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img7.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img7.jpeg" alt="" />
                                     
                                 <span>@ Covington </span>
 
@@ -387,7 +391,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img8.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img8.jpeg" alt="" />
                                     
                                 <span>@ Abbeville </span>
 
@@ -429,7 +433,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img9.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img9.jpeg" alt="" />
                                     
                                 <span>@ Lake Charles </span>
                               
@@ -464,7 +468,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img10.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img10.jpeg" alt="" />
                                     
                                 <span>@ Alexandria </span>
                               
@@ -498,7 +502,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img11.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img11.jpeg" alt="" />
                                     
                                 <span>@  Shreveport</span>
                               
@@ -529,7 +533,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img12.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img12.jpeg" alt="" />
                                     
                                 <span>@ Monroe  </span>
                               
@@ -564,7 +568,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img13.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img13.jpeg" alt="" />
                                     
                                 <span>@ Ruston </span>
 
@@ -601,7 +605,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img14.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img14.jpeg" alt="" />
                                     
                                 <span>@ Breaux Bridge </span>
                               
@@ -644,7 +648,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img14.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img14.jpeg" alt="" />
                                     
                                 <span>@ Opelousas </span>
                               
@@ -676,7 +680,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img15.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img15.jpeg" alt="" />
                                     
                                 <span>@ Thibodaux </span>
 
@@ -708,7 +712,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img16.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img16.jpeg" alt="" />
                                     
                                 <span>@ Houma </span>
 
@@ -738,7 +742,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img17.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img17.jpeg" alt="" />
                                     
                                 <span>@ Mandeville </span>
                               
@@ -768,7 +772,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img18.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img18.jpeg" alt="" />
                                     
                                 <span>@ Madisonville </span>
 
@@ -799,7 +803,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img19.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img19.jpeg" alt="" />
                                     
                                 <span>@  Franklinton</span>
                               
@@ -831,7 +835,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img20.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img20.jpeg" alt="" />
                                     
                                 <span>@ Leesville </span>
                               
@@ -862,7 +866,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img21.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img21.jpeg" alt="" />
                                     
                                 <span>@  Vidalia </span>
 
@@ -894,7 +898,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img22.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img22.jpeg" alt="" />
                                     
                                 <span>@ Lottery </span>
                               
@@ -927,7 +931,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/louisiana/img23.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/louisiana/img23.jpeg" alt="" />
                                     
                                 <span>@ popeyes </span>
                               
@@ -956,7 +960,7 @@ const index = () => {
 
                         <p> 
 
-                            <img src="/images/louisiana/img24.jpeg" alt="" />
+                            <LazyLoadImage   src="/images/louisiana/img24.jpeg" alt="" />
                                 
                             <span>@  Louisiana purchase</span>
                         
@@ -986,7 +990,7 @@ const index = () => {
 
                         <p> 
 
-                            <img src="/images/louisiana/img25.jpeg" alt="" />
+                            <LazyLoadImage   src="/images/louisiana/img25.jpeg" alt="" />
                                 
                             <span>@  Louisiana Time </span>
                         

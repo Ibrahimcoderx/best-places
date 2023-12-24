@@ -17,6 +17,9 @@ import MoreIdea from '@/Components/MoreIdea/MoreIdea'
 import Meta from '@/Components/Common/Meta/Meta'
 import Footer from '@/Components/Common/Footer/Footer'
 
+// Lazy loading
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 const index = () => {
   
@@ -69,7 +72,7 @@ const index = () => {
                     <div className='BlogComponent'> 
 
                         <p>
-                            The Bahamas, a collection of islands located in the Caribbean, is a top vacation destination known for its stunning beaches, clear blue waters, and vibrant culture. With over 700 islands and cays, each with its own unique charm, there is no shortage of things to see and do in this tropical paradise.
+                           <a href='louisiana'>The Bahamas</a> , a collection of islands located in the Caribbean, is a top vacation destination known for its stunning beaches, clear blue waters, and vibrant culture. With over 700 islands and cays, each with its own unique charm, there is no shortage of things to see and do in this tropical paradise.
                             <br/><br/>
                             One of the main draws of the Bahamas is its stunning beaches, with powdery white sands and crystal-clear waters. Among the most popular are Cable Beach, Paradise Island, and Pink Sands Beach, which is famous for its rose-colored sands. Snorkeling and scuba diving are also popular activities, with opportunities to explore coral reefs, shipwrecks, and a variety of marine life.
                             <br/><br/>
@@ -132,7 +135,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img2.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img2.jpeg" alt="" />
                                     
                                 <span>@ The Ocean Club </span>
                               
@@ -168,7 +171,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img3.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img3.jpeg" alt="" />
                                     
                                 <span>@ Atlantis </span>
                               
@@ -204,7 +207,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img4.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img4.jpeg" alt="" />
                                     
                                 <span>@ Grand Hyatt Baha Mar </span>
                               
@@ -236,7 +239,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img5.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img5.jpeg" alt="" />
                                     
                                 <span>@ osewood Baha Mar </span>
                               
@@ -270,7 +273,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img6.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img6.jpeg" alt="" />
                                     
                                 <span>@ SLS Baha Mar </span>
                               
@@ -304,7 +307,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img8.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img8.jpeg" alt="" />
                                     
                                 <span>@ The Cove, Atlantis </span>
                               
@@ -336,7 +339,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img9.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img9.jpeg" alt="" />
                                     
                                 <span>@ Sandals Royal Bahamian </span>
                               
@@ -368,7 +371,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img10.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img10.jpeg" alt="" />
                                     
                                 <span>@ Sandals Emerald Bay  </span>
                               
@@ -401,7 +404,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img11.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img11.jpeg" alt="" />
                                     
                                 <span>@ The Reef at Atlantis </span>
                               
@@ -435,7 +438,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img12.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img12.jpeg" alt="" />
                                     
                                 <span>@  One&Only Ocean Club</span>
                               
@@ -471,7 +474,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img13.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img13.jpeg" alt="" />
                                     
                                 <span>@  Graycliff Hotel</span>
                               
@@ -501,7 +504,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img14.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img14.jpeg" alt="" />
                                     
                                 <span>@ The Island House </span>
                               
@@ -535,7 +538,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img15.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img15.jpeg" alt="" />
                                     
                                 <span>@ Warwick </span>
                               
@@ -569,7 +572,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img16.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img16.jpeg" alt="" />
                                     
                                 <span>@ Breezes Resort </span>
                               
@@ -605,7 +608,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img17.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img17.jpeg" alt="" />
                                     
                                 <span>@ Meliá Nassau Beach  </span>
                               
@@ -637,7 +640,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img18.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img18.jpeg" alt="" />
                                     
                                 <span>@  Paradise Island</span>
                               
@@ -669,7 +672,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img19.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img19.jpeg" alt="" />
                                     
                                 <span>@  Hilton Nassau</span>
                               
@@ -703,7 +706,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img20.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img20.jpeg" alt="" />
                                     
                                 <span>@ The Dunmore Hotel </span>
                               
@@ -735,7 +738,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img21.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img21.jpeg" alt="" />
                                     
                                 <span>@  </span>
                               
@@ -775,7 +778,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img22.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img22.jpeg" alt="" />
                                     
                                 <span>@  Stella Maris Resort</span>
                               
@@ -811,7 +814,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img23.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img23.jpeg" alt="" />
                                     
                                 <span>@  Tiamo Resort </span>
                               
@@ -843,7 +846,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img24.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img24.jpeg" alt="" />
                                     
                                 <span>@ Kamalame Cay </span>
                               
@@ -875,7 +878,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img25.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img25.jpeg" alt="" />
                                     
                                 <span>@ Tommy Bahama </span>
                               
@@ -909,7 +912,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img26.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img26.jpeg" alt="" />
                                     
                                 <span>@ Bahama Breeze </span>
                               
@@ -945,7 +948,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/bahamas/img27.jpeg" alt="" />
+                                <LazyLoadImage src="/images/bahamas/img27.jpeg" alt="" />
                                     
                                 <span>@  Bahama Bucks</span>
                               

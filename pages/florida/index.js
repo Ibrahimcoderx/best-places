@@ -17,6 +17,10 @@ import MoreIdea from '@/Components/MoreIdea/MoreIdea'
 import Meta from '@/Components/Common/Meta/Meta'
 import Footer from '@/Components/Common/Footer/Footer'
 
+// Lazy loading
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 
 const index = () => {
   
@@ -176,7 +180,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img1.jpeg" alt="" />
                                     
                                 <span>@  Miami Beach   </span>
 
@@ -217,7 +221,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img2.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img2.jpeg" alt="" />
                                     
                                 <span>@  Key West   </span>
 
@@ -255,7 +259,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img3.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img3.jpeg" alt="" />
                                     
                                 <span>@  Orlando   </span>
 
@@ -299,7 +303,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img4.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img4.jpeg" alt="" />
                                     
                                 <span>@   Tampa Bay  </span>
 
@@ -337,7 +341,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img5.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img5.jpeg" alt="" />
                                     
                                 <span>@  Paradise   </span>
 
@@ -375,7 +379,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img6.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img6.jpeg" alt="" />
                                     
                                 <span>@   St. Augustine  </span>
 
@@ -416,7 +420,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img7.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img7.jpeg" alt="" />
                                     
                                 <span>@   Palm Beach  </span>
 
@@ -454,7 +458,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img8.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img8.jpeg" alt="" />
                                     
                                 <span>@   Clearwater Beach  </span>
 
@@ -495,7 +499,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img9.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img9.jpeg" alt="" />
                                     
                                 <span>@   Amelia Island  </span>
 
@@ -535,7 +539,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img10.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img10.jpeg" alt="" />
                                     
                                 <span>@  Naples   </span>
 
@@ -573,7 +577,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img11.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img11.jpeg" alt="" />
                                     
                                 <span>@   Fort Lauderdale  </span>
 
@@ -614,7 +618,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img12.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img12.jpeg" alt="" />
                                     
                                 <span>@  Daytona Beach   </span>
 
@@ -655,7 +659,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img13.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img13.jpeg" alt="" />
                                     
                                 <span>@   Sarasota  </span>
 
@@ -690,7 +694,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img14.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img14.jpeg" alt="" />
                                     
                                 <span>@   Pensacola Beach  </span>
 
@@ -734,7 +738,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img15.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img15.jpeg" alt="" />
                                     
                                 <span>@  Panama City Beach   </span>
 
@@ -778,7 +782,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img16.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img16.jpeg" alt="" />
                                     
                                 <span>@  Key Largo   </span>
 
@@ -816,7 +820,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img17.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img17.jpeg" alt="" />
                                     
                                 <span>@  Destin    </span>
 
@@ -859,7 +863,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img18.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img18.jpeg" alt="" />
                                     
                                 <span>@   Siesta Key  </span>
 
@@ -897,7 +901,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img19.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img19.jpeg" alt="" />
                                     
                                 <span>@  Cocoa Beach   </span>
 
@@ -935,7 +939,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/imgg20.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/imgg20.jpeg" alt="" />
                                     
                                 <span>@  St. Pete Beach   </span>
 
@@ -973,7 +977,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img20.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img20.jpeg" alt="" />
                                     
                                 <span>@  Marco Island   </span>
 
@@ -1014,7 +1018,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img21.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img21.jpeg" alt="" />
                                     
                                 <span>@ florida   </span>
 
@@ -1057,7 +1061,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img22.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img22.jpeg" alt="" />
                                     
                                 <span>@  hurricane florida  </span>
 
@@ -1102,7 +1106,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img23.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img23.jpeg" alt="" />
                                     
                                 <span>@   Marijuana   </span>
 
@@ -1141,7 +1145,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/florida/img24.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/florida/img24.jpeg" alt="" />
                                     
                                 <span>@    florida lotto  </span>
 

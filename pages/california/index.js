@@ -17,6 +17,10 @@ import MoreIdea from '@/Components/MoreIdea/MoreIdea'
 import Meta from '@/Components/Common/Meta/Meta'
 import Footer from '@/Components/Common/Footer/Footer'
 
+// Lazy loading
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 
 const index = () => {
   
@@ -124,7 +128,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img15.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img15.jpeg" alt="" />
                                     
                                 <span>San Francisco</span>
                               
@@ -173,7 +177,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img26.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img26.jpeg" alt="" />
                                     
                                 <span>© Los Angeles</span>
                               
@@ -219,7 +223,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img25.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img25.jpeg" alt="" />
                                     
                                 <span>© San Diego</span>
 
@@ -258,7 +262,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img3.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img3.jpeg" alt="" />
                                     
                                 <span>© Yosemite National</span>
                                 Are you looking for a quick escape from the hustle and bustle of city life? Look no further than Yosemite National Park, located just a few hours’ drive from San Francisco. With its stunning natural beauty and wide range of outdoor activities, Yosemite is the perfect destination for a weekend getaway.
@@ -298,7 +302,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img4.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img4.jpeg" alt="" />
                                     
                                 <span>Napa Valley</span>
 
@@ -341,7 +345,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img5.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img5.jpeg" alt="" />
                                     
                                 <span>© Lake Tahoe</span>
                                 Located in the Sierra Nevada mountain range, Lake Tahoe is a destination that offers something for everyone. With its crystal-clear waters, scenic hiking trails, and year-round recreational activities, Lake Tahoe is a nature lover's paradise and a must-visit destination for anyone seeking outdoor adventure. In this article, we'll explore why Lake Tahoe is considered one of the best places to visit in the United States.
@@ -375,7 +379,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img6.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img6.jpeg" alt="" />
                                     
                                 <span>© Big Sur</span>
                                 Nestled on the rugged California coastline between Carmel and San Simeon lies Big Sur, a magical stretch of land that has been enchanting visitors for generations. Known for its dramatic ocean vistas, towering redwood trees, and unspoiled wilderness, Big Sur is a destination that should be on every traveler's bucket list. In this article, we'll explore why Big Sur is the best place to experience California's natural beauty.
@@ -413,7 +417,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img7.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img7.jpeg" alt="" />
                                     
                                 <span>© Joshua Tree National Park</span>
                               
@@ -453,7 +457,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img8.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img8.jpeg" alt="" />
                                     
                                 <span>© Santa Barbara</span>
                               
@@ -491,7 +495,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img9.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img9.jpeg" alt="" />
                                     
                                 <span>© Palm Springs</span>
                                 Nestled between the Santa Ynez Mountains and the Pacific Ocean, Santa Barbara is a picturesque coastal city known for its mild Mediterranean climate, stunning natural beauty, and laid-back lifestyle. With its charming downtown area, beautiful beaches, and endless outdoor activities, Santa Barbara is the perfect destination for travelers seeking a mix of relaxation and adventure.
@@ -528,7 +532,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img10.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img10.jpeg" alt="" />
                                     
                                 <span>© Monterey Bay</span>
                                 Nestled on the central coast of California, Monterey Bay is a true gem for nature lovers and foodies alike. With its stunning ocean views, abundant wildlife, and world-class dining options, Monterey Bay is a destination that has something for everyone. In this article, we’ll explore why Monterey Bay is the perfect place to visit for a weekend getaway or a longer vacation.
@@ -567,7 +571,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img11.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img11.jpeg" alt="" />
                                     
                                 <span>© Santa Cruz</span>
                                 Santa Cruz is a small coastal city located in California, USA. Known for its stunning natural beauty and laid-back atmosphere, Santa Cruz is the ultimate destination for nature lovers and beachgoers. In this article, we’ll explore why Santa Cruz is one of the best places to visit in California.
@@ -605,7 +609,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img12.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img12.jpeg" alt="" />
                                     
                                 <span>© Sonoma County</span>
                                 Nestled in the heart of Northern California, Sonoma County is a picturesque region known for its beautiful landscapes, charming small towns, and, most of all, its world-renowned wineries. With over 425 wineries and 17 distinct wine appellations, Sonoma County is a must-visit destination for any wine lover. In this article, we’ll explore what makes Sonoma County such a wine lover's paradise.
@@ -646,7 +650,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img13.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img13.jpeg" alt="" />
                                     
                                 <span>© Carmel-by-the-Sea</span>
                                 Nestled along the coast of central California, Carmel-by-the-Sea is a small village that is often called one of the most charming towns in the United States. With its picturesque streets, pristine beaches, and idyllic surroundings, Carmel-by-the-Sea is a destination that has something for everyone. In this article, we’ll explore what makes Carmel-by-the-Sea so special.
@@ -684,7 +688,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img14.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img14.jpeg" alt="" />
                                     
                                 <span>© Mendocino County</span>
                                 Nestled along California's northern coast, Mendocino County is a hidden gem that offers visitors a serene escape from the hustle and bustle of everyday life. With miles of rugged coastline, picturesque vineyards, and charming small towns, Mendocino County is a destination that's perfect for anyone seeking a laid-back vacation filled with natural beauty and relaxation.
@@ -722,7 +726,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img1.jpeg" alt="" />
                                     
                                 <span>© Seashore</span>
                                 Located just an hour north of San Francisco, Point Reyes National Seashore is a hidden gem that offers visitors a chance to experience the beauty of Northern California’s coastline. With miles of pristine beaches, rugged cliffs, and rolling hills, Point Reyes is a destination that appeals to hikers, nature lovers, and anyone looking for a break from the hustle and bustle of city life. In this article, we’ll explore what makes Point Reyes National Seashore such a special place.
@@ -760,7 +764,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img16.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img16.jpeg" alt="" />
                                     
                                 <span>© Lake Arrowhead</span>
                                 Nestled in the San Bernardino Mountains of Southern California, Lake Arrowhead is a charming alpine village that offers a tranquil escape from the hustle and bustle of city life. With its pristine lake, scenic hiking trails, and cozy cabins, Lake Arrowhead is the perfect destination for those looking to unwind and reconnect with nature.
@@ -797,7 +801,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img17.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img17.jpeg" alt="" />
                                     
                                 <span>© Santa Monica</span>
                               
@@ -836,7 +840,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img18.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img18.jpeg" alt="" />
                                     
                                 <span>© Newport Beach</span>
                               
@@ -875,7 +879,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img19.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img19.jpeg" alt="" />
                                     
                                 <span>© Malibu</span>
                               
@@ -916,7 +920,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img20.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img20.jpeg" alt="" />
                                     
                                 <span>© Laguna Beach</span>
                               
@@ -956,7 +960,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img21.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img21.jpeg" alt="" />
                                     
                                 <span>© Santa Ynez Valley</span>
                                 Nestled in the picturesque Santa Barbara County, the Santa Ynez Valley is a beautiful wine country destination that boasts of stunning landscapes, excellent wines, and a laid-back atmosphere. This hidden gem is located just a two-hour drive away from Los Angeles and offers visitors a chance to unwind and relax in a tranquil and scenic environment.
@@ -987,7 +991,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img22.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img22.jpeg" alt="" />
                                     
                                 <span>© time of california</span>
                                    California is a large state on the west coast of the United States, known for its stunning beaches, iconic landmarks, and diverse population. One of the most common questions visitors to California have is, "What time is it here?" This is because California spans three time zones and observes Daylight Saving Time (DST).
@@ -1016,7 +1020,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img23.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img23.jpeg" alt="" />
                                     
                                 <span>© National Park</span>
                                 Located just off the coast of Southern California, the Channel Islands National Park is a hidden gem waiting to be discovered. The park is comprised of five main islands – Anacapa, Santa Cruz, Santa Rosa, San Miguel, and Santa Barbara – each with its own unique landscapes and wildlife.
@@ -1048,7 +1052,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/california/img24.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/california/img24.jpeg" alt="" />
                                     
                                 <span>© Mammoth Lakes</span>
                                 Nestled in the Eastern Sierra region of California, Mammoth Lakes is a picturesque mountain town that offers year-round outdoor activities for visitors of all ages. The town is surrounded by the majestic peaks of the Sierra Nevada mountain range and is home to several pristine lakes, making it an ideal destination for nature lovers.

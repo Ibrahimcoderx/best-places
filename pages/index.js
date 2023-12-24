@@ -30,6 +30,10 @@ import LinkGroup from '@/Components/LinkGroup/LinkGroup'
 import Meta from '@/Components/Common/Meta/Meta'
 
 
+// Lazy loading
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 const index = () => {
 
   return (
@@ -370,7 +374,7 @@ const index = () => {
                                 <p> 
 
                                   <Link href=''>California</Link>
-                                  <img src="/images/home/img14.png" alt="" />
+                                  <LazyLoadImage   src="/images/home/img14.png" alt="" />
                                   
                                   <b>The Most Romantic Getaways for Couples: </b>  
                                   
@@ -482,7 +486,7 @@ const index = () => {
 
                                   <Link href=''> ROMANTIC BEACH FOREVER</Link>
                                   
-                                  <img src="/images/home/img15.png" alt="" />
+                                  <LazyLoadImage   src="/images/home/img15.png" alt="" />
                                   
                                   <b>The Top Destinations for Lovebirds: </b>  
                                   
@@ -581,7 +585,7 @@ const index = () => {
 
                                   <Link href=''>  Beach Destinations</Link>
                                   
-                                  <img src="/images/home/img16.png" alt="" />
+                                  <LazyLoadImage   src="/images/home/img16.png" alt="" />
                                   
                                   <b>Top Family-Friendly Beach Destinations </b>  
                                   
@@ -716,7 +720,7 @@ const index = () => {
 
                                   <Link href=''> Destination for Travelers</Link>
                                   
-                                  <img src="/images/home/img17.png" alt="" />
+                                  <LazyLoadImage   src="/images/home/img17.png" alt="" />
                                   
                                   <b>Florida </b>  
                                   

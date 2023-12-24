@@ -17,6 +17,10 @@ import MoreIdea from '@/Components/MoreIdea/MoreIdea'
 import Meta from '@/Components/Common/Meta/Meta'
 import Footer from '@/Components/Common/Footer/Footer'
 
+// Lazy loading
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 
 const index = () => {
   
@@ -178,7 +182,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Waikiki Beach  </span>
 
@@ -211,7 +215,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Cannon Beach  </span>
 
@@ -249,7 +253,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@   South Beach, Miami </span>
 
@@ -304,7 +308,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@ Coronado Beach, California   </span>
 
@@ -341,7 +345,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Clearwater Beach, Florida  </span>
 
@@ -388,7 +392,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@ Myrtle Beach  </span>
 
@@ -431,7 +435,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Siesta Beach, Florida  </span>
 
@@ -478,7 +482,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Santa Monica Beach </span>
 
@@ -521,7 +525,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Hanauma Bay, Hawaii  </span>
 
@@ -572,7 +576,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@ Maryland and Virginia  </span>
 
@@ -623,7 +627,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Nantucket Island  </span>
 
@@ -670,7 +674,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@ Ka'anapali Beach  </span>
 
@@ -709,7 +713,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Gulf Shores, Alabama  </span>
 
@@ -753,7 +757,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Outer Banks  </span>
 
@@ -786,7 +790,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@   Malibu Beach </span>
 
@@ -823,7 +827,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Tybee Island  </span>
 
@@ -870,7 +874,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Block Island  </span>
 
@@ -917,7 +921,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Lanikai Beach </span>
 
@@ -954,7 +958,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Pensacola Beach  </span>
 
@@ -1003,7 +1007,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Cape Hatteras   </span>
 
@@ -1046,7 +1050,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  La Jolla Cove  </span>
 
@@ -1093,7 +1097,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Virginia Beach  </span>
 
@@ -1130,7 +1134,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Kapalua Bay Beach </span>
 
@@ -1165,7 +1169,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@  Best Beach  </span>
 
@@ -1208,7 +1212,7 @@ const index = () => {
 
                             <p> 
 
-                                <img src="/images/luxury-vacation/1.jpeg" alt="" />
+                                <LazyLoadImage   src="/images/luxury-vacation/1.jpeg" alt="" />
                                     
                                 <span>@ us mexico beach  </span>
 
